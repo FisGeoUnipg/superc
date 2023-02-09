@@ -157,7 +157,7 @@ header {
 	background-color: white;
 }
 
-@media screen and (max-width: 850px) { 
+@media screen and (max-width : 1214px ){ 
   .column {
     width: 100%;
     display: block;
@@ -207,6 +207,3 @@ background-color: white;
 .button:hover {
   background-color: #555;
 }
-
-
-
