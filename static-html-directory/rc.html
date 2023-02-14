@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Raggi Cosmici</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style_page.css"/>
+    
+
+    
+  </head>
+  <body>
+    <header style="background-color: rgba(0,0,0,0);">
+      <img src="img/logo.png" alt="logo_super-c" style="width:100px;margin-top:0.5%;margin-bottom:0.5%;margin-left:0.5%; float:right;">	
+      <ul id="nav">
+	
+	<li><a href="./index.html#panel_home">Home</a></li>
+	<li><a href="#panel_superc">Super-C</a></li>
+	<li><a href="#panel_aree">TEAM</a></li>
+	<li><a href="#panel04">News</a></li>
+	<li><a href="#panel04">Outreach</a></li>
+	<li><a href="#panel04">Contattaci</a></li>
+      </ul>
+      
+    </header>
+    
+    <div id="container">
+      <section id="panel_home">
+        <div class="background"
+             style="background: url('img/rc.png');  width:60%; background-size:cover; background-repeat: no-repeat;     background-position: left top;" 
+             data-anchor-target="#panel_home">
+          <div class="content"   style="background-image: linear-gradient(to right, rgb(255,255,255,0) , rgb(255,255,255,1) );">
+          </div>
+          <div class="content_text"  style="background-image: linear-gradient(to right, rgb(255,255,255,0) , rgb(255,255,255,1) );">
+            <h2>test</h2>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="footer">
+
+    </div>
+
+    <script> 
+      function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/skrollr.min.js"></script>
+    <script src="js/skrollr.menu.min.js"></script>
+    <script>
+      $(function(){
+      var height = $(window).height();
+      $('section').height(height);
+      
+      
+      var s = skrollr.init({
+      smoothScrolling: false,
+      mobileDeceleration: 0.004,
+      forceHeight: false
+      });
+      
+
+      //The options (second parameter) are all optional. The values shown are the default values.
+      skrollr.menu.init(s, {
+      //skrollr will smoothly animate to the new position using `animateTo`.
+      animate: true,
+      
+      //The easing function to use.
+      easing: 'sqrt',
+      
+      //Multiply your data-[offset] values so they match those set in skrollr.init
+      scale: 2,
+      
+      //How long the animation should take in ms.
+      duration: function(currentTop, targetTop) {
+      //By default, the duration is hardcoded at 500ms.
+      return 1200;
+      
+      //But you could calculate a value based on the current scroll position (`currentTop`) and the target scroll position (`targetTop`).
+      //return Math.abs(currentTop - targetTop) * 10;
+      }
+      
+      
+      });
+
+      });
+    </script>
+  </body>
+</html>

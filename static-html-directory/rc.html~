@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Super-C</title>
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css"/>
+    
+
+    
+  </head>
+  <body>
+    <header style="background-color: rgba(0,0,0,0);">
+   <!--   <img src="img/logo.png" alt="logo_super-c" data-0="width:0px;margin-top:0.5%;margin-bottom:0.5%;margin-left:0.5%; float:left;"  data-150="width:80px;margin-top:0.5%;margin-bottom:0.5%;margin-left:0.5%; float:left;">	-->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a href="#panel_home">Home</a>
+	<a href="#panel_superc">Super-C</a>
+	<a href="#panel_aree">TEAM</a>
+	<a href="#panel04">News</a>
+	<a href="#panel04">Outreach</a>
+	<a href="#panel04">Contattaci</a>
+</div>
+        <button data-0="font-size:0px; background-color:rgb(5,23,37)" data-150="border: none; font-size:18px;cursor:pointer;margin-right:1.5%;margin-top:1.5%;float:right; color: rgb(5,23,37); background-color: rgb(255,255,255);border: none;  " onclick="openNav()">&#9776; MENU</button>
+<!-- 
+    <ul id="mySidenav" class="sidenav" data-0="padding:20px 0;" 
+	  data-150="padding: 0 0;">
+	 
+	<li><a href="#panel_home">Home</a></li>
+	<li><a href="#panel_superc">Super-C</a></li>
+	<li><a href="#panel_aree">TEAM</a></li>
+	<li><a href="#panel04">News</a></li>
+	<li><a href="#panel04">Outreach</a></li>
+	<li><a href="#panel04">Contattaci</a></li>
+      </ul>
+-->
+  
+    </header>
+    
+    <div id="container">
+      <section id="panel_home">
+        <div class="background"
+             style="background: url('img/infografica.png'); background-size:cover; background-repeat: no-repeat;     background-position: center top;" 
+             data-anchor-target="#panel_home">
+          <a href="#panel_superc" class="button" style="widht:100%;height:100%;background-color:rgb(0,0,0,0)"></a>
+        </div>
+      </section>
+      
+      <section id="panel_superc">	
+        <div class="background"
+             style="background: white"            
+             data-anchor-target="#panel_superc">
+          <div class="container">
+            <div class="content"
+                 data-center-top="opacity: 1;  left: 48<%"
+                 data-bottom="opacity: 0;  left: 0%;"
+                 data-anchor-target="#panel_superc h2">
+	      <div> <img src="img/logo_big.png" alt="logo_super-c" style="width:300px;margin-top:0.5%;margin-bottom:0.5%;margin-right:5%; float:left;">  <h2>SUPER-C&nbsp;</h2> <h3 style="font-size: 18px; text-align:justify; ">Dopo un lungo processo di valutazione, il nostro Dipartimento è stato qualificato  dal MUR tra i primi 8 Dipartimenti di Italia nella rispettiva area scientifico disciplinare, come pubblicato sul sito istituzionale Area 02 dipartimenti di eccellenza. 
+                Questo risultato è frutto dell’ottima qualità della ricerca dell’intero Dipartimento nel quinquennio 2015-2019: il dipartimento, selezionato tra i primi 350 d’Italia in tutte le aree scientifiche, è stato ammesso a concorrere per ottenere un importante finanziamento su base premiale per lo sviluppo della ricerca scientifica e la formazione per il quinquennio 2023-2027.&nbsp;</h3>
+			 
+                 <h3 style="font-size: 16px; text-align: justify;">  SUPER-C, Space and Universe Perugia Research Cluster, è il progetto di sviluppo selezionato come “eccellente” da una commissione di esperti, garantendo nel prossimo quinquennio un investimento del MUR di circa 8 milioni di euro, a cui si aggiungeranno 1.3 milioni di cofinanziamento del nostro Ateneo.
+
+                Lo sviluppo tecnologico di nuovi esperimenti spaziali, l’osservazione dei diversi messaggeri dell’Universo, dalle onde gravitazionali alla radiazione cosmica, e l’esplorazione planetaria sono i temi conduttori di SUPER-C. Questi temi si pongono alla frontiera tra la ricerca fondamentale e le applicazioni tecnologiche, beneficiando delle competenze più che ventennali acquisite anche in collaborazioni di respiro internazionale e con il supporto dell’Istituto Nazionale di Fisica Nucleare (INFN) e l’Agenzia Spaziale Italiana (ASI).  
+
+                Il finanziamento di SUPER-C permetterà di investire ulteriormente nelle infrastrutture di ricerca, potenziando i laboratori di qualifica spaziale presso il Polo di Terni e quelli di planetologia, sviluppando le tecnologie per la prossima generazione di osservatori di onde gravitazionali e aggiornando le strumentazioni in dotazione all’osservatorio astronomico di Borgo Coloti.
+
+                Una nuova generazione di ricercatori e professori, per un totale di cinque nuove unità di personale, sarà assunta per ampliare e sostenere i progetti di ricerca e l’offerta formativa specialistica nei corsi di studio. 
+
+                Più di 1 milione di euro sarà investito in programmi di alta formazione, finanziando borse di dottorato per la crescita di nuovi ricercatori nei settori coinvolti e garantendo a Perugia la permanenza di studiosi di fama nazionale ed internazionale. <br>  <br>  <br>
+              </h3>
+               </div>
+				     </div>
+            </div>
+          </div>
+        </div>
+      </section>
+   
+      
+      <section id="panel_aree" data-anchor-target="#panel_aree">
+
+        <div class="background"
+             style="background: #041725">
+          <div class="container">
+            <div class="content"
+                 data-anchor-target="#panel_aree h2"  style="margin-top:0%";>
+              <h2 style="color: white;">Le 4 aree di Super-C...</h2>
+              <div class="container_box">
+                <div class="row" style="align:center; margin-top:-10%;">
+                  <div class="column">
+                    <div class="card">
+		      <h3>PLANETOLOGIA</h3>
+                      <img src="img/raggicosmici.png" alt="raggi_cosmici" style="width:100%">
+                      <div class="container_box">
+                        <p>L’eccellenza nella ricerca dell’astronomia multimessaggera è radicata in una profonda conoscenza nel campo dell’astronomia e dell’astrofisica tradizionali, vale a dire quelle basate sull’osservazione della radiazione elettromagnetica (luce). 
+
+L’esperienza maturata all’interno del dipartimento di Fisica e Geologia  nelle indagini astrofisiche e nello sviluppo di telescopi e strumenti per l’osservazione costituisce il punto di partenza per la ricerca di segnali multimessaggeri dei prossimi anni. 
+
+Perseguiamo questo obiettivo lungo due direttrici: l’analisi fenomenologica e statistica dei dati disponibili, tramite tecniche avanzate di machine learning, di sorgenti esotiche quali lampi gamma, buchi neri, stelle di neutroni nuclei ultra brillanti di galassie, solo per citarne alcune;  lo sviluppo e la costruzione di nuovi telescopi per fotoni a diverse lunghezze d’onda, complementari al telescopio ottico del Dipartimento presso l’Osservatorio di Borgo Coloti, per scoprire nuove e peculiari sorgenti. 
+
+Inoltre con ricerche di astrofisica nucleare si indaga la produzione di elementi pesanti nelle galassie e in particolare la nucleosintesi associata e fenomeni  di tipo multimessaggero.  </p>
+                        <p><button class="button">Leggi di più</button></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="column">
+                    <div class="card">
+                      <h3>FOTONI</h3>
+                      <img src="img/coloti.png" alt="raggi_cosmici" style="width:100%">
+                      <div class="container_box">                   
+                        <p>I raggi cosmici sono una pioggia di particelle  con orgine galattica ed extragalattica che colpiscono continuamente l'atmosfera terrestre.    </p>
+<p><button class="button">Leggi di più</button></p>
+</div>
+</div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <h3>RAGGI COSMICI</h3>
+    <img src="img/rc.png" alt="raggi_cosmici" style="width:100%">
+    <div class="container_box">
+                             <p><b>Chi </b> li ha scoperti: <br><i> Victor Hess</i></p>
+                        <p><b>Quando:</b><i>nel 1912;</i></p>
+                        <p><b>Cosa:</b><i>Sulla terra e nello spazio;</i></p>
+                        <p><b>Dove</b> studiarli:<br><i> Sulla terra e nello spazio;</i></p>
+                            <p>I raggi cosmici sono una pioggia di particelle  con orgine galattica ed extragalattica che colpiscono continuamente l'atmosfera terrestre.    </p>
+      <p><button class="button">Leggi di più</button></p>
+    </div>
+  </div>
+</div>
+<div class="column">
+  <div class="card">
+    <h3>ONDE GRAVITAZIONALI</h3>
+    <img src="img/OG.png" alt="raggi_cosmici" style="width:100%">
+    <div class="container_box">
+ <p><b>Chi </b> li ha scoperti: <br><i> Victor Hess</i></p>
+                        <p><b>Quando:</b><i>nel 1912;</i></p>
+                        <p><b>Cosa:</b><i>Sulla terra e nello spazio;</i></p>
+                        <p><b>Dove</b> studiarli:<br><i> Sulla terra e nello spazio;</i></p>
+                        <p><b>Perchè </b>studiarli: <br><i>Ricerca Materia Oscura, Ricerca Antimateria di Origine primordiale, Comprensione del mezzo Interstellare, Space Wheater.</i></p>
+                             <p><button class="button">Leggi di più</button></p>
+    </div>
+  </div>
+</div>
+</div				
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div class="footer">
+
+</div>
+
+<script> 
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/skrollr.min.js"></script>
+<script src="js/skrollr.menu.min.js"></script>
+<script>
+$(function(){
+    var height = $(window).height();
+    $('section').height(height);
+  
+  
+    var s = skrollr.init({
+		smoothScrolling: false,
+		mobileDeceleration: 0.004,
+		forceHeight: false
+	});
+	
+
+	//The options (second parameter) are all optional. The values shown are the default values.
+	skrollr.menu.init(s, {
+		//skrollr will smoothly animate to the new position using `animateTo`.
+		animate: true,
+	
+		//The easing function to use.
+		easing: 'sqrt',
+	
+		//Multiply your data-[offset] values so they match those set in skrollr.init
+		scale: 2,
+	
+		//How long the animation should take in ms.
+		duration: function(currentTop, targetTop) {
+			//By default, the duration is hardcoded at 500ms.
+			return 1200;
+	
+			//But you could calculate a value based on the current scroll position (`currentTop`) and the target scroll position (`targetTop`).
+			//return Math.abs(currentTop - targetTop) * 10;
+		}
+	
+		
+	});
+
+});
+</script>
+</body>
+</html>
