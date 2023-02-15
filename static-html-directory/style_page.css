@@ -22,7 +22,6 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
-
 #nav {
     display:block;
     padding:0;
@@ -41,66 +40,60 @@ header {
 }
 
 #nav li a{text-align: right;color:  #041725; text-transform: uppercase;}
- 
-#nav_collapse{  background:#041725;display: none;}
-#nav_collapse ul{
-  list-style:none;  
-  margin:0;
-  padding:0;
-  width:200px;
-  margin:20px;  
-  background:#041725;	
-}
-#nav_collapse ul li{
-  display:block;
-  height:20px;  
-  width:20px;
-  background:#041725;  
-  padding:10px;
-  color:white;
-  border-top:1px #041725;  
-}
-#nav_collapse ul li:hover{
-  background:#041725;
-}
-#nav_collapse label:before{
-  height:2px;
-  width:30px;
-  background:white;
-  display:inline-block;
-  margin-left:0px;
-  transition:all .5s;
-  position:relative;
-  opacity:1;
-  color: #041725;
 
+
+.sidebar {
+    height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #041725;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
-#nav_collapse label{
-  display:block;
-  background:white;
-  width: 40px;
-  height: 40px;
-  color:#041725;  
-  cursor:pointer; 
-  font-size: 40px;
-  margin-left: 10px;
-  margin-top: -30px;
-  float:right;
+
+.sidebar a {
+  padding: 30px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  text-transform: uppercase;
 }
-#nav_collapse input[type="checkbox"]{
-  visibility:hidden;
-  position:absolute;
+
+.sidebar a:hover {
+  color: #f1f1f1;
 }
-#collapse:checked ~ li{
-  display:none;
-  margin-top:0; 
-  color: black;
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
-#collapse:checked + label:before{
-  position:relative;
-  right:calc(-160px);
-  opacity:1;
-  
+
+.openbtn {
+    display:none;
+    font-size: 20px;
+  cursor: pointer;
+  background-color: #041725;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  float: right;
+}
+
+.openbtn:hover {
+  background-color:#041725;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
 }
 .background {
     background-position: center center;
@@ -164,8 +157,8 @@ h3::first-letter {
     height: 100%;
     display: block;
     position: absolute;
-	padding: 0px 0px;
-	overflow: hidden;
+    padding: 0px 0px;
+    overflow: hidden;
 }
 
 
@@ -208,7 +201,7 @@ float: right;
 @media screen and (max-width : 900px ){  
 
 #nav {display: none;}
-
-	 
-#nav_collapse{display:block;}
-
+.openbtn {
+    display:inline-block;
+}
+}
