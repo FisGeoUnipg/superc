@@ -24,14 +24,14 @@ header {
 
   
 #nav {
-    display:block;
+ display:block;
     padding:0;
     margin:0;
-    margin-left:50%;
-    width:50%;
+    margin-left:-5%;
+    width:100%;
     text-align: right;
     font-size: 14px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #nav > li {
@@ -40,7 +40,7 @@ header {
     margin:0;
 }
 
-#nav li a{text-align: right;color: white; text-transform: uppercase; background-color: rgba(0, 0, 0, 0.5);}
+#nav li a{text-align: right;color: #041725; text-transform: uppercase; padding-right:5%;}
 
 .sidenav {
   font-size: 14px;
@@ -56,6 +56,29 @@ header {
   transition: 0.5s;
   padding-top: 60px;
 }
+
+.arrow {
+  border: solid #041725;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 8px;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+	margin-bottom: 26px;
+}
+/* Darker background on mouse-over */
+.arrow:hover {
+	 border: solid #568BB0;  
+	border-width: 0 3px 3px 0;
+}
+
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -77,8 +100,6 @@ header {
   font-size: 36px;
   margin-left: 50px;
 }
-
-
 
 .background {
     background-position: center center;
@@ -105,8 +126,33 @@ header {
     position: absolute;
 
 }
+.content_page{
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 60%;
+    height: 100%;
+    display: block;
+    padding: 0 0px;
+    position: absolute;
 
+}
 
+.content_text{
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+.content_text h2{ font-size: 40px;
+    color: #333;
+    font-weight:300;
+    text-align: right;
+  padding-top:5%;
+    padding-right:10%;
+  }
 
 .content h2{ font-size: 40px;
     color: #333;
@@ -127,7 +173,7 @@ header {
                        }
 #panel_home .content a{color:white;}
 
-#panel_superc .content{ margin-left:-30%}
+#panel_superc .content{ margin-left:-30%; }
 #panel_superc .content h2{text-align: center;font-size:40px;}
 #panel_superc .content h3{text-align: center;font-size:16px; font-weight: 300; line-height: 1.8;}
 
@@ -139,7 +185,6 @@ header {
 
 #panel03 .content{ margin-left:-600px; margin-top: 0px; }
 #panel03 .content h2{color:#fff; text-align: left;font-size:70px}
-
 
 .footer p{padding:10px 20px}
 
@@ -156,8 +201,14 @@ header {
   padding: 0 5px;
 	background-color: white;
 }
-
-@media screen and (max-width : 1214px ){ 
+@media screen and (max-width : 900px ){ 
+  .column {
+    width: 48%;
+    display: block;
+background-color: white;
+  }
+}
+@media screen and (max-width : 600px ){ 
   .column {
     width: 100%;
     display: block;
