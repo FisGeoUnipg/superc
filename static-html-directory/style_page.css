@@ -1,7 +1,7 @@
 html,body{margin:0; padding:0;box-sizing: border-box; background-color: #fff}
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a{color:#333; text-decoration: none;}
@@ -41,13 +41,73 @@ header {
 }
 
 #nav li a{text-align: right;color:  #041725; text-transform: uppercase;}
+ 
+#nav_collapse{  background:#041725;display: none;}
+#nav_collapse ul{
+  list-style:none;  
+  margin:0;
+  padding:0;
+  width:200px;
+  margin:20px;  
+  background:#041725;	
+}
+#nav_collapse ul li{
+  display:block;
+  height:20px;  
+  width:20px;
+  background:#041725;  
+  padding:10px;
+  color:white;
+  border-top:1px #041725;  
+}
+#nav_collapse ul li:hover{
+  background:#041725;
+}
+#nav_collapse label:before{
+  height:2px;
+  width:30px;
+  background:white;
+  display:inline-block;
+  margin-left:0px;
+  transition:all .5s;
+  position:relative;
+  opacity:1;
+  color: #041725;
 
-
+}
+#nav_collapse label{
+  display:block;
+  background:white;
+  width: 40px;
+  height: 40px;
+  color:#041725;  
+  cursor:pointer; 
+  font-size: 40px;
+  margin-left: 10px;
+  margin-top: -30px;
+  float:right;
+}
+#nav_collapse input[type="checkbox"]{
+  visibility:hidden;
+  position:absolute;
+}
+#collapse:checked ~ li{
+  display:none;
+  margin-top:0; 
+  color: black;
+}
+#collapse:checked + label:before{
+  position:relative;
+  right:calc(-160px);
+  opacity:1;
+  
+}
 .background {
     background-position: center center;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+
 }
 .arrow {
   border: solid #041725;
@@ -92,6 +152,10 @@ header {
     overflow: hidden;
 }
 
+h3::first-letter {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
 
 .content_text{
     margin-top: 0px;
@@ -109,16 +173,15 @@ header {
     color: #333;
     font-weight:300;
     text-align: right;
-    margin-top:50%;
-    margin-left:68%;
-	width: 50%;
+	width: 60%;
+	margin-top: 90px;
+	margin-left: 35%;
 	float:right;
 	position: fixed;
-	rotate:-90deg;
 	 text-transform: uppercase;
 
   }
-.content_text h3{ font-size: 20px;
+.content_text h3{ font-size: 18px;
 		  line-height: 1.4;
 		  color: #333;
 		  font-weight:300;
@@ -142,9 +205,10 @@ text-align: center;
 font-weight:300;
 float: right;	
 }
-@media screen and (max-width : 600px ){  
-	
-.content_text h3{ 
-		width: 60%;
-  }
-}
+@media screen and (max-width : 900px ){  
+
+#nav {display: none;}
+
+	 
+#nav_collapse{display:block;}
+

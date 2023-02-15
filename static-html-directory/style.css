@@ -106,6 +106,10 @@ header {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+	background: url('img/infografica.png'); 
+	background-size:cover; 
+	background-repeat: no-repeat;     
+	background-position: top center;" 
 }
 
 .container {
