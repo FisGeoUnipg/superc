@@ -9,7 +9,7 @@ a{color:#333; text-decoration: none;}
 header {
     background-color: #fff;
     width: 100%;
-    t
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
@@ -99,7 +99,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     width: 100%;
-  height: 100%;
+    height: 100%;
 }
 .arrow {
   border: solid #041725;
@@ -128,9 +128,26 @@ header {
     float:left;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow: scroll;
     position: relative;
     margin:0; padding:0;
+}
+
+.container_box {
+    display: block;
+    height: 100%;
+    float: right;
+    overflow: visible;
+    position: relative;
+    padding: 0 5px;	 
+    width:100%;
+}
+
+
+.container_box::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .content {
@@ -156,9 +173,9 @@ h3::first-letter {
     height: 100%;
     display: block;
     position: absolute;
-    padding: 0px 0px;
-    overflow: hidden;
-}
+p    padding: 0px 0px;
+a    overflow: hidden;
+nel}
 
 
 .content_text h2{ font-size: 30px;
@@ -183,24 +200,81 @@ h3::first-letter {
 		  float:right;
 		}
 
+.col_footer_20{
 
-.footer {
-font-size: 30px;
-position: fixed;
-right: 0%;
-top: 50px;
-width: 40%;
-height:  50px;
-background: white;
-color: white;
-text-align: center;
-font-weight:300;
-float: right;	
+    float: left;
+    height: 130px;
+    width: 20%;
+    position: relative;
+    bottom:0;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: white;
 }
+.col_footer_60{
+    float: left;
+    height: 130px;
+    width: 60%;
+    position: relative;
+    bottom:0;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: white;
+}
+
+
+.col_footer_50{
+ display: none;
+    height: 130px;
+    width: 0%;
+    position: relative;
+    bottom:0;
+    margin-left: 0%;
+    margin-right: 0%;
+    background-color: white;
+}
+
+
+#footer .content h2{text-align: center;font-size:40px;}
+#footer .content h3{text-align: center;font-size:16px;}
+#footer .content p{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4;}
+#footer .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4; height:120px;}
+#footer .content{width:100%}
+#footer .container{overflow: visible;}
+#footer .background{overflow: visible;}
+
 @media screen and (max-width : 900px ){  
 
-#nav {display: none;}
-.openbtn {
-    display:inline-block;
+    #nav {display: none;}
+    .openbtn {
+	display:inline-block;
+    }
+
+    .col_footer_20 {
+	display: none;
+	width: 0%;
+	margin-top:0px;
+    }
+    .col_footer_50 {
+	display: inline-block;
+	width: 100%;
+	margin-top:0px;
+	height: 110px;
+    }
+
+    .col_footer_100 {
+	display: inline-block;
+	width: 100%;
+	height:0px;
+	background-color:#041725;
+	color:white;
+    }
+
+    .col_footer_60 {
+	width: 100%;
+	margin-top:0px;
+    }
 }
+
+
 }
