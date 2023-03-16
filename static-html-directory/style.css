@@ -44,8 +44,10 @@ header {
 
 .sidenav {
   font-size: 14px;
-  text-align: left; color: white; text-transform: uppercase; background-color: rgba(0, 0, 0, 0.5);
-  height: auto;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+  height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -84,13 +86,15 @@ header {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 18px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
+  line-height: 1.8;
+  text-align: center;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+    font-size: 20px;
 }
 
 .sidenav .closebtn {
@@ -100,6 +104,31 @@ header {
   font-size: 36px;
   margin-left: 50px;
 }
+
+.dropdown-container {
+  display: none;
+  background-color: white;
+  color: #041725;
+  padding-left: 8px;
+}
+
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+.dropdown-btn:hover {
+    color: #041725;
+}
+
 
 .background {
     background-position: center center;
