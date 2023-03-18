@@ -1,0 +1,197 @@
+<!AAdoctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <title>Super-C</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css"/>
+    
+  </head>
+  <body>
+<header style="background-color: rgba(0,0,0,0);">
+      <!--   <img src="img/logo.png" alt="logo_super-c" data-0="width:0px;margin-top:0.5%;margin-bottom:0.5%;margin-left:0.5%; float:left;"  data-150="width:80px;margin-top:0.5%;margin-bottom:0.5%;margin-left:0.5%; float:left;">	-->
+      <div id="mySidenav" class="sidenav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&nbsp;over&times;</a>
+	<a href="#panel_home">Home</a>
+	<a href="#panel_superc">Super-C</a>
+	<a href="./work_in_progress.html">TEAM</a>
+	<a href="./work_in_progress.html">News</a>
+	<a href="./work_in_progress.html">Outreach</a>
+	<a href="./work_in_progress.html">Contattaci</a>
+      </div>
+      <button data-0="font-size:0px; background-color:rgb(5,23,37)" data-150="border: none; font-size:18px;cursor:pointer;margin-right:1.5%;margin-top:1.5%;float:right; color: rgb(5,23,37); background-color: rgb(255,255,255);border: none;  " onclick="openNav()">&#9776; MENU</button>
+      <!--
+	  <ul id="mySidenav" class="sidenav" data-0="padding:20px 0;"
+	      data-150="padding: 0 0;">
+	    
+	    <li><a href="#panel_home">Home</a></li>
+	    <li><a href="#panel_superc">Super-C</a></li>
+	    <li><a href="#panel_aree">TEAM</a></li>
+	    <li><a href="#panel04">News</a></li>
+	    <li><a href="#panel04">Outreach</a></li>
+	    <li><a href="#panel04">Contattaci</a></li>
+	  </ul>
+	  -->
+	  
+</header>
+
+    <div id="container">    
+      <section id="panel_home">
+	<div class="background"
+	     
+	     data-anchor-target="#panel_home">
+	  <a href="#panel_superc" class="button" style="widht:100%;height:100%;background-color:rgb(0,0,0,0)"></a>
+	</div>
+      </section>
+      <section id="panel_superc">
+	<div class="background"
+	     style="background: white"
+	     data-anchor-target="#panel_superc">
+	  <div class="container">
+	    <div class="content"
+		 data-center-top="opacity: 1;  left: 46%"
+		 data-bottom="opacity: 0;  left: 30%;"
+		 data-anchor-target="#panel_superc h2">
+	      <div> <img src="img/logo_big.png" alt="logo_super-c" style="width:300px;margin-top:0.5%;margin-bottom:0.5%;margin-right:5%; float:left;">
+		
+		<h2><span style="color:#041725; font-size: 50px;  font-weight: 400;">S</span>UPER-<span style="color:#041725,; font-size: 50px;    font-weight: 400;">C</span>&nbsp;</h2> <h3 style=" text-align:justify; ">Dopo un lungo processo di valutazione, il nostro Dipartimento è stato qualificato  dal MUR tra i primi 8 Dipartimenti di Italia nella rispettiva area scientifico disciplinare, come pubblicato sul sito istituzionale Area 02 dipartimenti di eccellenza.
+		  Questo risultato è frutto dell’ottima qualità della ricerca dell’intero Dipartimento nel quinquennio 2015-2019: il dipartimento, selezionato tra i primi 350 d’Italia in tutte le aree scientifiche, è stato ammesso a concorrere per ottenere un importante finanziamento su base premiale per lo sviluppo della ricerca scientifica e la formazione per il quinquennio 2023-2027.&nbsp;</h3>
+		<br>
+		<h3>  SUPER-C, Space and Universe Perugia Research Cluster, è il progetto di sviluppo selezionato come “eccellente” da una commissione di esperti, garantendo nel prossimo quinquennio un investimento del MUR di circa 8 milioni di euro, a cui si aggiungeranno 1.3 milioni di cofinanziamento del nostro Ateneo.
+		  
+		  Lo sviluppo tecnologico di nuovi esperimenti spaziali, l’osservazione dei diversi messaggeri dell’Universo, dalle onde gravitazionali alla radiazione cosmica, e l’esplorazione planetaria sono i temi conduttori di SUPER-C. Questi temi si pongono alla frontiera tra la ricerca fondamentale e le applicazioni tecnologiche, beneficiando delle competenze più che ventennali acquisite anche in collaborazioni di respiro internazionale e con il supporto dell’Istituto Nazionale di Fisica Nucleare (INFN) e l’Agenzia Spaziale Italiana (ASI).
+		  
+		  Il finanziamento di SUPER-C permetterà di investire ulteriormente nelle infrastrutture di ricerca, potenziando i laboratori di qualifica spaziale presso il Polo di Terni e quelli di planetologia, sviluppando le tecnologie per la prossima generazione di osservatori di onde gravitazionali e aggiornando le strumentazioni in dotazione all’osservatorio astronomico di Borgo Coloti.
+		  
+		  Una nuova generazione di ricercatori e professori, per un totale di cinque nuove unità di personale, sarà assunta per ampliare e sostenere i progetti di ricerca e l’offerta formativa specialistica nei corsi di studio.
+		  
+		  Circa 1 milione di euro sarà investito in programmi di alta formazione, finanziando borse di dottorato per la crescita di nuovi ricercatori nei settori coinvolti e garantendo a Perugia la permanenza di studiosi di fama nazionale ed internazionale.<br><br><br>
+		  <br>  <br>
+		</h3>
+		<table style="width:20%; margin-left: auto; margin-right: 36%;">
+		  <tr>
+		    <td><a href="#panel_aree" class="arrow up"></a></td>
+		    <td><a href="#panel_aree" class="arrow down"></a></td>
+		  </tr>
+		</table>
+		<br>
+		<br>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+    </div>
+    </section>
+    
+    
+    <section id="panel_aree" data-anchor-target="#panel_aree">
+      
+      <div class="background"	style="background: #041725; height:0px;">
+	<div class="container">
+	  <div class="content"
+	       data-anchor-target="#panel_aree h2"  style="margin-top:0%";>
+	    <h2 style="color: white;">Le 4 aree di Super-C...</h2>
+	    
+	    <div class="container_box">
+
+	      <div class="row" style="margin-left:4.5%;">
+
+
+		<div class="column">
+		  <div class="card">
+		    <h3>RAGGI COSMICI</h3>
+		    <img src="img/rc.png" alt="raggi_cosmici" style="width:100%">
+		    <div class="container_box">
+		      <h1>I raggi cosmici sono una pioggia di particelle con orgine galattica ed extragalattica che colpiscono continuamente l'atmosfera terrestre.    </h1>
+		      <p>  <a href="./rc.html"><button class="button">Leggi di più</button></a></p>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="column">
+		  <div class="card">
+		    <h3>FOTONI</h3>
+		    <img src="img/coloti.png" alt="osservatorio_coloti" style="width:100%">
+		    <div class="container_box">
+		      <h1>Privi di massa ed elettricamente neutri, i fotoni sono quanti di luce,  la loro direzione indica la sorgente di provenienza.</h1>
+		      <p><a href="./fotoni.html"><button class="button">Leggi di più</button></a></p>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="column">
+		  <div class="card">
+		    <h3>ONDE GRAVITAZIONALI</h3>
+		    <img src="img/OG.png" alt="onde_grav" style="width:100%">
+		    <div class="container_box">
+		      <h1>Le onde gravitazionali sono minuscole deformazioni dello spazio-tempo che ogni giorno attraversano la Terra.</h1>
+		      <p>  <a href="./onde_gravitazionali.html"><button class="button">Leggi di più</button></a></p>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="column">
+		  <div class="card">
+		    <h3>PLANETOLOGIA</h3>
+		    <img src="img/pianeti.png" alt="planetologia" style="width:100%">
+		    <div class="container_box">
+		      <h1>Lo studio dei pianeti aiuta a capire la loro evoluzione geologica e verificare le condizioni di abitabilità per le prossime missioni. </h1>
+		       <p><a href="./pianetologia.html"><button class="button">Leggi di più</button></a></p>
+		    </div>
+		  </div>
+		</div>
+
+	
+	      </div>
+
+	      <div class="row" style="align:center;margin-left:0%;margin-right: 0%; margin-bottom:0px;">
+		<div class="col_footer_20">
+		  <img src="img/logo_unipg_SC.png" alt="logo_super-c" style="height:90px;margin-top:20px;margin-left:20px; float:left;"></div>
+		<div class="col_footer_60">
+		  <p style="font-size:16px; font-weight:700; color:rgb(194,34,52)color:#333;"> Dipartimento di Fisica e Geologia
+		    <br> 
+		    <span style="font-size:13px; font-weight:400; color:#333;"> Università degli Studi di Perugia  <br>
+		      Edificio ex Dip. Fisica: via Pascoli, snc - Edif. ex Dip. Scienze della Terra: piazza Università </span>
+		    <span style="font-size:13px; font-weight:400; color:#333;">
+		      <br> <a href="mailto:webmaster@fisica.unipg.it"> webmaster@fisica.unipg.it</a>
+		      | <a href="mailto:dipartimento.fisgeo@cert.unipg.it">dipartimento.fisgeo@cert.unipg.it</a></span>
+		  </p>
+		</div>
+		<div class="col_footer_20">
+		  <img src="img/logo_unipg.svg" alt="logo_super-c" style="height:90px;margin-top:20px;margin-right:20px;float:right;">
+		</div>
+		
+		<div class="col_footer_50">
+		  <img src="img/logo_unipg_SC.png" alt="logo_super-c" style="margin-left:50px;height:90px; float:left;">
+		  <img src="img/logo_unipg.svg" alt="logo_super-c" style="height:90px;margin-right:50px;float:right;">
+		</div>
+		
+		
+		<div class="col_footer_100">		
+		  <p style="font-size:13px;text-align:right; color:white; padding-right:20px;"> © 2023 - Created and maintained by <a href="mailto:indirizzo@email.com" style="color:rgb(255,178,0)">Maura Graziani</a></p>
+		</div>
+	      </div>	
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </section>
+</div>
+
+<script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+</script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/skrollr.min.js"></script>
+<script src="js/skrollr.menu.min.js"></script>
+<script src="js/menu_collaps.js"></script>
+</body>
+</html>

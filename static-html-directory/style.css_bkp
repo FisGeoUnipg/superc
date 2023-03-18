@@ -21,8 +21,6 @@ header {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-
-  
 #nav {
  display:block;
     padding:0;
@@ -42,12 +40,11 @@ header {
 
 #nav li a{text-align: right;color: #041725; text-transform: uppercase; padding-right:5%;}
 
+
 .sidenav {
   font-size: 14px;
-  text-align: left;
-  color: white;
-  text-transform: uppercase;
-  height: 100%;
+  text-align: left; color: white; text-transform: uppercase; background-color: rgba(0, 0, 0, 0.5);
+  height: auto;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -85,51 +82,24 @@ header {
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 18px;
   color: white;
   display: block;
   transition: 0.3s;
-  line-height: 1.8;
-  text-align: center;
 }
 
 .sidenav a:hover {
+    color: white;
     font-size: 20px;
 }
 
 .sidenav .closebtn {
-  position: absolute;
+    position: absolute;
   top: 0;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
 }
-
-.dropdown-container {
-  display: none;
-  background-color: white;
-  color: #041725;
-  padding-left: 8px;
-}
-
-.dropdown-btn {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  display: block;
-  border: none;
-  background: none;
-  width: 100%;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-}
-.dropdown-btn:hover {
-    color: #041725;
-}
-
 
 .background {
     background-position: center center;
@@ -270,15 +240,6 @@ h3::first-letter {
     margin-right: 0%;
     background-color: white;
 }
-
-.col_footer_100 {
-    display: inline-block;
-    width: 100%;
-    height:50px;
-    background-color:#041725;
-    color:white;
-}
-
 @media screen and (max-width : 1200px ){
     #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4; height:130px;}
 }
@@ -309,7 +270,7 @@ h3::first-letter {
     margin-top:0px;
     }
 }
- 
+
 @media screen and (max-width : 1400px ){
   .background {
     background-repeat: no-repeat;

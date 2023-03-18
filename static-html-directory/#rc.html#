@@ -1,10 +1,10 @@
-<!Adoctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Onde Gravitazionali</title>
+    <title>Raggi Cosmici</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="apple-touch-icon" type="image/png" href="img/favicon.png">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="img/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style_page.css"/>
   </head>
@@ -27,7 +27,7 @@
       <div id="main">
 	<button class="openbtn" onclick="openNav()">☰ </button>  
       </div>
-      
+       
       <ul id="nav">
 	<li><a href="./index.html#panel_home">Home</a></li>
 	<li><a href="./index.html#panel_superc">Super-C</a></li>
@@ -47,27 +47,30 @@
     <div id="container" style="overflow:hidden;">
       <section id="panel_home">
 	<div class="background"
-	     style="overflow:hidden;background: url('img/OG_sfondo.png');  width:50%; background-size:cover; background-repeat: no-repeat;     background-position: left top;" 
+	     style="overflow:hidden;background: url('img/rc_sfondo.png');  width:50%; background-size:cover; background-repeat: no-repeat;     background-position: left top;" 
 	     data-anchor-target="#panel_home">
 	  <div class="content"   style="overflow:hidden;background-image: linear-gradient(to right, rgb(255,255,255,0) ,rgb(255,255,255,0) ,rgb(255,255,255,0), rgb(255,255,255,0.5) , rgb(255,255,255,0.8), rgb(255,255,255,1) );">
 	  </div>
 	  <div class="content_text" style=" overflow:hidden;">
-	    <h2>Le <span style="color:#A20002; font-size: 2.2rem;    font-weight: 400;">O</span>nde <span style="color:#A20002;   font-size: 2.2rem;    font-weight: 400;">G</span>ravitazionali</h2>
+	    <h2>I <span style="color:#A20002; font-size: 2.2rem;    font-weight: 400;">R</span>aggi <span style="color:#A20002;   font-size: 2.2rem;    font-weight: 400;">C</span>osmici</h2>
 	    <div class="content_text" style="margin-top: 150px; overflow:scroll;">
-	      <hr style="margin-left:65%;margin-top:-10px;width: 40%; float: right; height:2px;border-width:0;color:gray;background-color:gray; position: fixed;"> 
+	      <hr style="width: 50%;
+    height: 100%;
+margin-left:50%;
+    display: block;
+    padding: 0 0px;
+    overflow: hidden;
+margin-top:-10px; height:2px;border-width:0;color:gray;background-color:gray; position: fixed; "> 
 	      <h3>
-		Le onde gravitazionali sono minuscole deformazioni dello spazio-tempo. Quelle più forti vengono prodotte durante dei violenti eventi astronomici, come ad esempio uno scontro di due oggetti compatti, e ogni giorno attraversano la Terra. Attualmente le onde gravitazionali vengono rilevate da grandi esperimenti situati sulla superficie terrestre. Uno di questi è il rivelatore Advanced Virgo+. Ciò che rende Virgo così importante, insieme alla rete mondiale degli osservatori simili, è che riesce ad indicare la posizione della sorgente d'onda nel cielo. Gli esistenti laboratori riescono a rivelare il segnale nel raggio di 3Gpc (i segnali più lontani sono stati prodotti quasi 10 miliardi di anni fa). Tuttavia sono già in costruzione nuovi osservatori che supereranno questo limite di ordini di grandezza.</h3><h3>
-
-
-		Gli scienziati del Dipartimento di Fisica e Geologia dell'Università degli Studi di Perugia studiano le tecnologie abilitanti per il prossimo osservatorio: Einstein Telescope. Le principali linee di ricerca sperimentale si dividono in tre gruppi: la realizzazione di sospensioni a basso rumore termico, la costruzione di componenti ottici a bassa dissipazione meccanica e la realizzazione di materiali ad alte prestazioni termo-meccaniche e ottiche. A questi, si aggiungono gli studi teorici dei fenomeni alla base della generazione di onde gravitazionali che approfondiscono i modelli delle sorgenti e le metodiche per l’analisi dei dati. Tutti questi componenti sono cruciali per superare le limitazioni degli attuali apparati e consolidano il ruolo già rilevante di Perugia nell’esperimento Virgo.
-	      </h3>
-	      <h3>
-		Oltre alle onde gravitazionali conosciamo fenomeni come l’emissione di neutrini e raggi gammva o la nucleosintesi che possono essere associati alle sorgenti che generano l'onda gravitazionale. Un’osservazione congiunta dello stesso evento, eseguita contemporaneamente dagli osservatori di vario tipo, è chiamata multi-messaggera. Le osservazioni multi-messaggere permettono lo sviluppo di modelli teorici e strumenti di calcolo della nucleosintesi, lo studio delle popolazioni di sorgenti gamma e l’analisi temporale della radiazione gamma. Questi studi, a loro volta, permetteranno di migliorare la comprensione dei dati sulle abbondanze chimiche e dei fenomeni nucleari che caratterizzano la materia presente nell'Universo. 
-		
+I raggi cosmici sono particelle cariche di alta energia provenienti dallo spazio profondo che bombardano continuamente il nostro pianeta.
+Lo studio dei raggi cosmici è diventato negli anni un campo di ricerca molto attivo e fortemente interdisciplinare. Esso presenta profonde connessioni con altri problemi aperti dell’astrofisica, quali l’origine dell’antimateria nell’universo o la natura della materia oscura.</h3><h3>
+La ricerca sui raggi cosmici viene rivoluzionata negli anni ’90 dall’idea di applicare nello spazio le più moderne tecniche di rivelazione ed analisi dati della fisica delle alte energie.
+L’idea si è concretizzata a Perugia nella progettazione, operazione ed analisi dati negli esperimenti AMS-01 nel 1998, AMS-02 e DAMPE attualmente in orbita, e in progetti di recente attivazione quali il dimostratore PAN o l'esperimento spaziale HERD. </h3><h3>
+		L’esperienza maturata all’interno del Dipartimento di Fisica e Geologia nella rivelazione di raggi cosmici ha portato negli anni all’acquisizione di nuove competenze:
+		nell'analisi dei dati astrofisici, nella fenomenologia dei raggi cosmici galattici e dell’ambiente di radiazione nello spazio, nello studio di possibili applicazioni nell'ambito della meteorologia spaziale.
 		<br><br>
-		<br><br>
-	      </h3>
-	      <h3>		
+	      </h3>	      
+	      <h3>	<br><br>
 		<!--
 		    <table style="width:20%; margin-left: auto; margin-right: auto;">
 		      <tr>
@@ -75,17 +78,16 @@
 		      </tr>	
 		    </table>
 		    -->
-		<br><br><br></h3>
+	    <br><br><br><br><br></h3>
 	    </div>
 	  </div>
 	</div>
     </div>
     </section>
 
-
-    <!-- footer -->
+        <!-- footer -->
     
-    <div class="background"	style="background-color: #041725; height:0px;">
+    <div  class="background"	style="background-color: #041725; height:0px;">
       <div class="row" style="align:center;margin-left:0%;margin-right: 0%; margin-bottom:0px;">
 	<div class="col_footer_20">
 	  <img src="img/logo_unipg_SC.png" alt="logo_super-c" style="height:90px;margin-top:20px;margin-left:20px; float:left;"></div>
@@ -114,7 +116,6 @@
     </div>
 
 </div>
-
 
 <script src="js/jquery.min.js"></script>
 <script src="js/skrollr.min.js"></script>
