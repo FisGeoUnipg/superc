@@ -436,7 +436,7 @@ h3::first-letter {
     float: right;
     overflow: visible;
     position: relative;
-    padding: 0 30px;	 
+    padding: 0 10px;	 
     width:100%;
 }
 
