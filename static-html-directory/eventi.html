@@ -54,7 +54,7 @@
     
 <section id="eventi">
 
-<table style="margin-top:80px; margin-left:300px; width:400px; text-align:center;border: 2px solid #041725; border-radius: 0px 0px 15px 15px; position:fixed; z-index:20; background-color: white; font-size:14px;">
+<table id="date_menu">
   <tr>
     <th colspan="1" style="color:white; background-color:#041725;  padding: 5px;">2023</th>
   </tr>
@@ -64,23 +64,14 @@
     <td><a href="#maggio">MAG</a></td>
     <td><a href="#settembre">SET</a></td>
   </tr>
-    </table>
+</table>
 
 <div class="timeline">
-
-	<div class="container_right">
-	  <div id="month_start">
-            Settembre
-	    <br>
-	    <span style="color:orange; font-weight:300;font-size:16px;">2023</span>
-	  </div>
-	</div>
-
 	
 	<!-- sharper 29 settembre 2023-->
 	<div class="container_right" id="settembre">
-	  <div id="date" style="padding-bottom: -18px; font-size:14px; font-weight: 400"> Venerdì
-	    <div style="font-size:38px; position: center; padding-top: 25px; font-weight: 600"> 29 </div>
+	  <div id="date"> Venerdì
+	    <div id="date_num"> 29 </div>
 	  </div>
 	  <div id="month">
             SETTEMBRE
@@ -91,20 +82,20 @@
               <br> <span style="font-weight: bold;"> Luogo: </span> Perugia;
               <br> <span style="font-weight: bold;"> Link: </span> <a href="https://www.sharper-night.it/" style="color:orange" target="_blank">Sharper 2023</a></h2>
           </div>
-          <div class="column_right">
-            <img id="astroread_sharper" src="img/read_astro.png" style="width:100px; margin-top:-200px; z-index:1;">
+          <div class="column_right_btn">
+            <img id="astroread" src="img/read_astro.png">
             <span id="more_sharper" style="display:none"> <h2>SHARPER – SHAring Researchers’ Passion for Enhanced Roadmaps – La Notte Europea dei Ricercatori in 14 città italiane. Il 29 settembre 2023 a Ancona, Cagliari, Camerino, Catania, Genova, L'Aquila, Macerata, Nuoro, Palermo, Pavia, Perugia, Sassari, Terni e Trieste un grande evento dedicato al mondo della ricerca e ai suoi protagonisti.
 		ll progetto è coordinato da Psiquadro in partnership con Università degli Studi di Perugia, INFN, Università Politecnica delle Marche, Università degli Studi di Palermo, Università degli Studi di Catania, Università degli Studi di Cagliari, Università di Genova, Università di Sassari, Immaginario Scientifico e Observa.</h2>
 	    </span>
-	    <button id="myBtn_sharper" onclick="showmoreFunction('more_sharper','myBtn_sharper','astroread_sharper')" > Leggi di più </button>
+	    <button id="myBtn_sharper" onclick="showmoreFunction('more_sharper','myBtn_sharper')" > Leggi di più </button>
           </div>
         </div>
 
 
 	<!-- LAB2GO 15 maggio 2023-->
 	<div class="container_right" id="maggio">
-	  <div id="date" style="padding-bottom: -18px; font-size:14px; font-weight: 400"> Lunedì
-	    <div style="font-size:38px; position: center; padding-top: 25px; font-weight: 600"> 15 </div>
+	  <div id="date"> Lunedì
+	    <div id="date_num"> 15 </div>
 	  </div>
 	  <div id="month">
             MAGGIO
@@ -115,8 +106,8 @@
               <br> <span style="font-weight: bold;"> Luogo: </span> Dipartimento di Fisica e Geologia - Aula D, Perugia;
 	      <br> <span style="font-weight: bold;"> Link: </span> <a href="https://web.infn.it/lab2go/" style="color:orange" target="_blank">Il progetto Lab2Go</a></h2>
           </div>
-	  <div class="column_right">
-	    <img id="astroread_lab2go" src="img/read_astro.png" style="width:100px; margin-top:-200px;">
+	  <div class="column_right_btn">
+	    <img id="astroread" src="img/read_astro.png">
 	    <span id="more_lab2go" style="display:none"> <h2>Il Dipartimento di Fisica e Geologia,
 		in collaborazione con l'INFN Perugia, partecipa al progetto Lab2Go 2023. Quest'anno a partecipare sono 11 ra
 		gazzi del liceo G. Alessi di Perugia che sotto la guida della ricercatrice Universitaria Maura Graziani si so
@@ -124,14 +115,14 @@
 		i muoni a terra. L'ultimo incontro del progetto che si terrà a Giugno in data da stabilire, prevede una prese
 		ntazione dei ragazzi sul lavoro che hanno svolto e a seguire i ragazzi si cimenteranno nella costruizione di 
 		una camera a nebbia!; </h2> </span>
-	    <button  id="myBtn_lab2go" onclick="showmoreFunction('more_lab2go','myBtn_lab2go','astroread_lab2go')"> Leggi di più </button>
+	    <button  id="myBtn_lab2go" onclick="showmoreFunction('more_lab2go','myBtn_lab2go')"> Leggi di più </button>
 	  </div>
 	</div>
 	
 	<!-- Una notte all'osservatorio maggio 2023-->
 	<div class="container_right">
-	  <div id="date" style="padding-bottom: -18px; font-size:14px; font-weight: 400"> Sabato
-	    <div style="font-size:38px; position: center; padding-top: 25px; font-weight: 600"> 6 </div>
+	  <div id="date"> Sabato
+	    <div id="date_num"> 6 </div>
 	  </div>
 	  <div id="month">
             MAGGIO
@@ -143,11 +134,11 @@
 	      di Coloti.
 	      <br> <span style="font-weight: bold;"> Link: </span> <a href="https://www.eventbrite.it/e/biglietti-una-notte-allosservatorio-581487634167" style="color:orange" target="_blank"> Iscriviti all'evento </a></h2>
           </div>
-	  <div class="column_right">
-	    <img id="astroread_coloti" src="img/read_astro.png" style="width:100px; margin-top:-200px;">
+	  <div class="column_right_btn">
+	    <img id="astroread" src="img/read_astro.png">
 	    <span id="more_coloti" style="display:none"> <h2> Osservazione del cielo notturno dall’Osservatorio Astronomico\
 		di Coloti.</h2> </span>
-	    <button  id="myBtn_coloti" onclick="showmoreFunction('more_coloti','myBtn_coloti','astroread_coloti')"> Leggi di più </button>
+	    <button  id="myBtn_coloti" onclick="showmoreFunction('more_coloti','myBtn_coloti')"> Leggi di più </button>
 	  </div>
 	</div>
 
@@ -165,8 +156,8 @@
               <br> <span style="font-weight: bold;"> Luogo: </span> Foligno (PG).
 	      <br> <span style="font-weight: bold;"> Link: </span> <a href="https://www.festascienzafilosofia.it/event/08db2ee3-e970-44c0-8e12-42eac742a22d" style="color:orange" target="_blank"> Evento </a></h2>
           </div>
-	  <div class="column_right">
-	    <img id="astroread_onde" src="img/read_astro.png" style="width:100px; margin-top:-200px;">
+	  <div class="column_right_btn">
+	    <img id="astroread" src="img/read_astro.png">
 	    <span id="more_onde" style="display:none"> <h2>	      Ripercorreremo attraverso simulazioni video e materiali interattivi l’affascinante
 		scoperta delle onde gravitazionali e la nascita dell’astronomia multimessaggera.
 		Racconteremo come lo strumento Virgo è in grado di registrare i deboli segnali
@@ -175,7 +166,7 @@
 		iniziata! Un nuovo osservatorio scientifico che si chiamerà “Einstein Telescope”
 		aprirà una nuova era di esplorazioni e di scoperte “ascoltando” fenomeni astrofisici
 		dalle regioni più remote dell’Universo. </h2> </span>
-	    <button  id="myBtn_onde" onclick="showmoreFunction('more_onde','myBtn_onde','astroread_onde')"> Leggi di più </button>
+	    <button  id="myBtn_onde" onclick="showmoreFunction('more_onde','myBtn_onde')"> Leggi di più </button>
 	  </div>
 	</div>
 
@@ -195,11 +186,11 @@
 	      di Coloti.
 	      <br> <span style="font-weight: bold;"> Link: </span> <a href="https://www.eventbrite.it/e/biglietti-visita-allosservatorio-di-coloti-liceo-alessi-603331459637" style="color:orange" target="_blank"> Evento </a></h2>
           </div>
-	  <div class="column_right">
-	    <img id="astroread_coloti3" src="img/read_astro.png" style="width:100px; margin-top:-200px;">
+	  <div class="column_right_btn">
+	    <img id="astroread" src="img/read_astro.png">
 	    <span id="more_coloti3" style="display:none"> <h2> Osservazione del cielo notturno dall’Osservatorio Astronomico di Coloti. Evento riservato\
  agli studenti del Liceo Alessi di Perugia.</h2> </span>
-	    <button  id="myBtn_coloti3" onclick="showmoreFunction('more_coloti3','myBtn_coloti3','astroread_coloti3')"> Leggi di più </button>
+	    <button  id="myBtn_coloti3" onclick="showmoreFunction('more_coloti3','myBtn_coloti3')"> Leggi di più </button>
 	  </div>
 	</div>
 
@@ -221,11 +212,11 @@
               <br> <span style="font-weight: bold;"> Link: </span> <a href="https://www.eventbrite.it/e/biglietti-visita-allosservatorio-di-coloti-liceo-alessi-603
 331459637" style="color:orange" target="_blank"> Evento </a></h2>
           </div>
-          <div class="column_right">
-            <img id="astroread_coloti" src="img/read_astro.png" style="width:100px; margin-top:-200px;">
+          <div class="column_right_btn">
+            <img id="astroread" src="img/read_astro.png">
             <span id="more_seminario" style="display:none"> <h2> Lezione rivolta ai ragazzi del quarto e quinto anno del liceo scintifico in cui la ricerc\
 atrice Universitaria Maura Graziani ha spiegato le basi del modello standard per poi passare a parlare della fisica dei raggi cosmici e delle tecniche di rivelazione degli stessi con un approfondimento sul rivelatore "Alpha Magnetic Spectrometer (AMS-02)".</h2> </span>
-            <button  id="myBtn_seminario" onclick="showmoreFunction('more_seminario','myBtn_seminario','astroread_seminario')"> Leggi di più </button>
+            <button  id="myBtn_seminario" onclick="showmoreFunction('more_seminario','myBtn_seminario')"> Leggi di più </button>
           </div>
         </div>	
 
@@ -244,10 +235,10 @@ atrice Universitaria Maura Graziani ha spiegato le basi del modello standard per
               <br> <span style="font-weight: bold;"> Luogo: </span> Osservatorio di Coloti, Montone (PG).
 	      <br> <span style="font-weight: bold;"> Link: </span> <a href="https://www.eventbrite.it/e/biglietti-una-notte-allosservatorio-ic-solfagnano-551137285457" style="color:orange" target="_blank"> Evento </a></h2>
           </div>
-	  <div class="column_right">
-	    <img id="astroread_coloti" src="img/read_astro.png" style="width:100px; margin-top:-200px;">
+	  <div class="column_right_btn">
+	    <img id="astroread" src="img/read_astro.png">
 	    <span id="more_coloti4" style="display:none"> <h2>Osservazione del cielo notturno dall’Osservatorio Astronomico di Coloti. Evento riservato agli studenti dell'Istituto Comprensivo 15 di Solfagnano.</h2> </span>
-	    <button  id="myBtn_coloti4" onclick="showmoreFunction('more_coloti4','myBtn_coloti4','astroread_coloti4')"> Leggi di più </button>
+	    <button  id="myBtn_coloti4" onclick="showmoreFunction('more_coloti4','myBtn_coloti4')"> Leggi di più </button>
 	  </div>
 	</div>
 	

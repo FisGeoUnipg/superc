@@ -93,6 +93,48 @@ header img
     background-position: top center;
 }
 
+#astroread{
+    width:100px;
+    margin-top:-105px;
+    z-index:1;
+    position:absolute;
+}
+
+#date {
+    margin-left: -100px;
+    width: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    color: black;
+    height: 70px;
+    text-align: center;
+    line-height: 0.2;
+    z-index: 1;
+    font-size:14px;
+    position: center;
+    padding-top: 25px;
+    padding-bottom: -18px;
+    font-weight: 400;
+}
+#date_num{
+    font-size:38px; position: center; padding-top: 25px; font-weight: 600;
+}
+
+#date_menu {
+    margin-top:80px;
+    margin-left:300px;
+    width:400px;
+    text-align:center;
+    border: 2px solid #041725;
+    border-radius: 0px 0px 15px 15px;
+    position:fixed;
+    z-index:20;
+    background-color: white;
+    font-size:14px;
+}
+
 .col_footer_100 {
     display: inline-block;
     width: 100%;
@@ -186,6 +228,17 @@ header img
     width: 40%;
 }
 
+.column_right_btn h2{
+    padding-right:100px;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.column_right_btn{
+    margin-bottom: -200px;
+}
+
 
 .sidebar {
     height: 100%;
@@ -198,7 +251,7 @@ header img
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    margin-right: 150px;
+    margin-right: 0px;
 }
 
 .sidebar a {
@@ -354,11 +407,16 @@ h4 span::first-letter {
   width: 25%;
 }
 .container_right{
-    padding-top:200px;
+    padding-top:180px;
+    padding-left:200px;
+    padding-bottom:100px;
+}
+.container_right_news{
+    padding-top:180px;
     padding-left:200px;
 }
 .container_news{
-    padding-top:200px;
+    padding-top:100px;
     padding-left:200px;
 }
 
@@ -497,7 +555,7 @@ h4 span::first-letter {
     padding: 10px;
     background-color: white;
     border-radius: 10px 10px 0px 0px;
-    font-size: 40px;
+    font-size: 14px;
     color: black;
     height: 70px;
     text-align: center;
@@ -670,7 +728,121 @@ h4 span::first-letter {
     display: none;
   }
 
-    .content p{
+  #date {
+    margin-top: -10px;
+    margin-left: -100px;
+    width: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    color: black;
+    height: 70px;
+    text-align: center;
+    line-height: 0.2;
+    z-index: 1;
+    font-size:14px;
+    position: center;
+    padding-top: 10px;
+    font-weight: 400; 
+  }
+   
+#month {
+    position:absolute;
+    margin-top: 60px;
+    margin-left: -100px;
+    width: 100px;
+    border: 2px solid black;
+    border-top: 0px solid black;
+    padding-top: 4px;
+    background-color: rgb(255,178,0);
+    border-radius: 0px 0px 10px 10px;
+    height: 30px;
+    font-weight: 400;
+    color: black;
+    font-size:15px;
+    text-align:center;
+    z-index: 1;
+}
+
+
+  #astroread{
+      width:80px;
+  }
+
+  #date_menu {
+    margin-top:80px;
+    margin-left:0px;
+    width:400px;
+    text-align:center;
+    border: 2px solid #041725;
+    border-radius: 0px 0px 15px 15px;
+    position:fixed;
+    z-index:20;
+    background-color: white;
+    font-size:14px;
+}
+
+#month_start {
+    position:absolute;
+    margin-left: -200px;
+    width: 200px;
+    padding: 20px;
+    background-color:white;
+    text-transform:uppercase;
+    height: 40px;
+    font-weight: 300;
+    color: #041725;
+    font-size:20px;
+    text-align:center;
+    z-index: 1;
+    line-height: 0.9;
+}
+
+.column_right_btn h2{
+    padding-right:100px;
+    float: left;
+    width: 100%;
+ margin-bottom: -100px;
+}
+.column_right_btn{
+    margin-bottom: -200px;
+}
+
+.timeline::after {
+    content: '';
+  position: fixed;
+  width: 2px;
+  background-color: #041725;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  margin-left: -3px;
+  height:100%;
+  display: none;
+}
+
+  .container_news p{
+      margin-top:100px;
+      margin-left:-200px;
+  }
+ hnews{
+      margin-left:-200px;
+ }
+ 
+ .container_right{margin-left: -80px;padding-top:200px;}
+ .container_right p{margin-top:-20px; margin-left: -30px; margin-right: -100px; font-size:28px;}
+ .container_right img{display:none;}
+.container_right button{margin-top:120px !important; margin-left: -70px;}
+.column_left h2{margin-left: -70px; margin-right: -100px;}
+
+#myBtn_sharper, #myBtn_lab2go, #myBtn_coloti, #myBtn_onde,#myBtn_coloti2, #myBtn_coloti3, #myBtn_coloti4, #myBtn_seminario{
+    padding:5px;
+    width:150px;
+    font-size: 18px;
+}
+
+ .content p{
 	font-size: 30px;
 	padding:0;
     }
