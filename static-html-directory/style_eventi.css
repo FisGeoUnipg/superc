@@ -93,6 +93,7 @@ header img
     background-position: top center;
 }
 
+
 #astroread{
     width:100px;
     margin-top:-105px;
@@ -119,7 +120,7 @@ header img
     font-weight: 400;
 }
 #date_num{
-    font-size:38px; position: center; padding-top: 25px; font-weight: 600;
+    font-size:30px; position: center; padding-top: 25px; font-weight: 600;
 }
 
 #date_menu {
@@ -329,15 +330,17 @@ header img
     background-color: white; 
     color: black; 
     border: 2px solid #041725;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  float:right;}
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    float:right;
+}
+
 
 .button_share:hover {
   background-color: #041725;
@@ -743,6 +746,17 @@ h4 span::first-letter {
     padding: 0 30px;	 
     width:100%;
 }
+#team_table .container_box {
+    display: inline-block;
+    height: 100%;
+    float: left;
+    overflow: visible;
+    position: absolute;
+    padding: 0 0px;	 
+    width:90%;
+    margin-left: -80px;
+
+}
 
 .container_box::after, .row::after {
   content: "";
@@ -750,7 +764,10 @@ h4 span::first-letter {
   display: table;
 }
 
-
+#eventi_2024 table{
+    display: none !important;
+}
+ 
 @media screen and (max-width : 1000px ){  
  html {
     -ms-overflow-style: none;
@@ -817,9 +834,10 @@ h4 span::first-letter {
     z-index:20;
     background-color: white;
     font-size:14px;
-}
 
-#month_start {
+  }
+  
+  #month_start {
     position:absolute;
     margin-left: -200px;
     width: 200px;

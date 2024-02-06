@@ -1,0 +1,10 @@
+function change_menu_2023() {
+	document.getElementById("riga2023").style.display = "block";
+	document.getElementById("riga2024").style.display = "none";
+	document.getElementById("date2023").style.color = "white";
+	document.getElementById("date2023").style.background-color = "#041725";
+}
+function change_menu_2024() {
+	document.getElementById("date2023").style.color = "red";
+	document.getElementById("date2024").style.color = "red";
+}
