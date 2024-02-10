@@ -144,6 +144,7 @@ header img
     color:white;
 }
 
+
 .col_footer_20{
     float: left;
     height: 130px;
@@ -389,6 +390,7 @@ h4 span::first-letter {
     font-size: 1.5rem;
     font-weight: 600;
 }
+h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; padding-right:0px; padding-left:0px; margin-top: -20px;}
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
@@ -724,6 +726,7 @@ h4 span::first-letter {
     background-color: white;
 }
 
+
 .col_footer_100 {
     display: inline-block;
     width: 100%;
@@ -767,7 +770,28 @@ h4 span::first-letter {
 #eventi_2024 table{
     display: none !important;
 }
- 
+
+
+#panel_advisory_board h1{
+    text-align: center;
+}
+
+#panel_advisory_board h3{
+    text-align: center;
+    font-size: 20px;
+    padding:0;
+}
+
+#panel_dipartimento h1{
+    text-align: center;
+}
+
+#panel_dipartimento h3{
+    text-align: center;
+    font-size: 20px;
+    padding:0;
+}
+
 @media screen and (max-width : 1000px ){  
  html {
     -ms-overflow-style: none;
@@ -780,6 +804,33 @@ h4 span::first-letter {
   html ::-webkit-scrollbar {
     display: none;
   }
+
+      .column {
+	  width: 45%;
+	display: block;
+	background-color: white;
+    }
+    
+    #panel_advisory_board .container_box {
+	display: inline-block;
+	height: 100%;
+	float: left;
+	overflow: visible;
+	position: relative;
+	padding: 0 0px;	 
+	width:100%;
+	margin-left: 0px;
+    }
+    #panel_dipartimento .container_box {
+	display: inline-block;
+	height: 100%;
+	float: left;
+	overflow: visible;
+	position: relative;
+	padding: 0 0px;	 
+	width:100%;
+	margin-left: 0px;
+    }
 
   #date {
     margin-top: -10px;
@@ -895,8 +946,9 @@ h4 span::first-letter {
  .container_right{margin-left: -80px;padding-top:200px;}
  .container_right p{margin-top:-20px; margin-left: -30px; margin-right: -100px; font-size:28px;}
  .container_right img{display:none;}
-.container_right button{margin-top:120px !important; margin-left: -70px;}
+ .container_right button{margin-top:120px !important; margin-left: -70px;}
 .column_left h2{margin-left: -70px; margin-right: -100px;}
+
 
 #myBtn_sharper, #myBtn_lab2go, #myBtn_coloti, #myBtn_onde,#myBtn_coloti2, #myBtn_coloti3, #myBtn_coloti4, #myBtn_seminario{
     padding:5px;
@@ -940,6 +992,8 @@ h4 span::first-letter {
 	display:inline-block;
     }
     
+
+
 }
 
 
@@ -966,6 +1020,34 @@ h4 span::first-letter {
   }
   .content_right h2{
       height: 300px;
-   }
-  
+  }
+ 
+@media screen and (max-width : 700px ){  
+    .column {
+	width: 100%;
+	display: block;
+	background-color: white;
+    }
+    
+    #panel_advisory_board .container_box {
+	display: inline-block;
+	height: 100%;
+	float: left;
+	overflow: visible;
+	position: relative;
+	padding: 0 0px;	 
+	width:100%;
+	margin-left: 0px;
+    }
+    #panel_dipartimento .container_box {
+	display: inline-block;
+	height: 100%;
+	float: left;
+	overflow: visible;
+	position: relative;
+	padding: 0 0px;	 
+	width:100%;
+	margin-left: 0px;
+    }
 }
+
