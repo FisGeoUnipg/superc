@@ -590,7 +590,7 @@ h3::first-letter {
     html ::-webkit-scrollbar {
 	display: none;
     }
-    .container{height:2000px;}
+
     
     .col_30{width:100%}
     .zoom img{width:60% !important}
