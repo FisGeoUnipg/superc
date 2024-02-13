@@ -545,15 +545,12 @@ h3::first-letter {
 
 @media screen and (max-width : 900px ){
     html {
-/*	-ms-overflow-style: none; */
-	-ms-overflow-style: block;
+	-ms-overflow-style: none; 
 	/* IE and Edge */
 	scrollbar-width: none;
 	max-width: 100vw !important;
-/*	overflow: hidden !important;
-	overflow-y: auto !important; */
-	overflow: visible !important;
-	overflow-y: visible !important; 
+	overflow: hidden !important;
+	overflow-y: auto !important; 
     }
     html ::-webkit-scrollbar {
 	display: none;
@@ -583,15 +580,12 @@ h3::first-letter {
 
 @media screen and (max-width : 700px ){
     html {
-/*	-ms-overflow-style: none; */
-	-ms-overflow-style: block;
+	-ms-overflow-style: none; 
 	/* IE and Edge */
 	scrollbar-width: none;
 	max-width: 100vw !important;
-/*	overflow: hidden !important;
-	overflow-y: auto !important; */
-	overflow: visible !important;
-	overflow-y: visible !important; 
+	overflow: hidden !important;
+	overflow-y: auto !important;  
     }
     html ::-webkit-scrollbar {
 	display: none;
@@ -634,15 +628,12 @@ h3::first-letter {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
     html {
-/*	-ms-overflow-style: none; */
-	-ms-overflow-style: block;
+	-ms-overflow-style: none; 
 	/* IE and Edge */
 	scrollbar-width: none;
 	max-width: 100vw !important;
-/*	overflow: hidden !important;
-	overflow-y: auto !important; */
-	overflow: visible !important;
-	overflow-y: visible !important; 
+	overflow: hidden !important;
+	overflow-y: auto !important; 
     }
     html ::-webkit-scrollbar {
 	display: none;
