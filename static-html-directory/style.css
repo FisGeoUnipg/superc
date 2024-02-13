@@ -359,7 +359,7 @@ h3::first-letter {
 #panel_aree .content p{text-align: center  !important; font-size:18px !important; font-weight: 300 !important; line-height: 1.4 !important;}
 #panel_aree .content h1{text-align: center !important; font-size:18px  !important; font-weight: 300 !important; line-height: 1.4  !important; height:120px  !important;}
 #panel_aree .content{width:100% !important; background-color: white  !important; margin-left:0px;}
-#panel_aree .container{overflow: visible  !important; margin-top:-50px;}
+#panel_aree .container{overflow: visible  !important; margin-top:-160px;}
 
 
 *, *:before, *:after {
