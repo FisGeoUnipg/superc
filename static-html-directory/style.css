@@ -183,7 +183,7 @@ header {
 
 .content {
     width: 70%;
-    height: 150px;
+    height: auto;
     display: block;
     padding: 0 0px;
     position: absolute;
@@ -487,7 +487,7 @@ h3::first-letter {
 
 
 @media screen and (max-width : 1200px ){
-    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4; height:130px;}
+    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4;}
 }
 @media screen and (max-width : 1000px ){
 
@@ -499,7 +499,6 @@ h3::first-letter {
 	padding: 30px 70px;
 	position: absolute;
 	top: 20%;
-	height:200px;
 	width: 100%;
 	text-align: center;
     }
@@ -513,7 +512,7 @@ h3::first-letter {
 	top: 0;
     }
 
-    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4; height:180px;}
+    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4;}
     .col_footer_20 {
 	display: none;
 	width: 0%;
@@ -561,7 +560,7 @@ h3::first-letter {
     width: 40% !important;
 }
 
-    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4; height:110px;}
+    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4;}
     .column {
 	width: 45%;
 	display: block;
@@ -595,7 +594,7 @@ h3::first-letter {
     .col_30{width:100%}
     .zoom img{width:60% !important}
 
-    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4; height:70px;}
+    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4; }
 
     #panel_aree .container{overflow: visible  !important; margin-top:800px;}
 
