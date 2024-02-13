@@ -594,10 +594,11 @@ h3::first-letter {
 
     .col_30{width:100%}
     .zoom img{width:60% !important}
-    #panel_superc .container{height:200% !important }
 
-    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4; height:70px;
-			   }
+    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4; height:70px;}
+
+    #panel_aree .container{overflow: visible  !important; margin-top:800px;}
+
     .column {
 	width: 100%;
 	display: block;
