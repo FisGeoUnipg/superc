@@ -180,6 +180,9 @@ header {
     position: relative;
     margin-top:40px; padding:0;
 }
+.content_smartphone{
+    display:none;
+}
 
 .content {
     width: 70%;
@@ -590,28 +593,27 @@ h3::first-letter {
 	display: none;
     }
 
-
+    
     .col_30{width:100%}
     .zoom img{width:60% !important}
 
-    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4; }
-
-    #panel_aree .container{overflow: visible  !important; margin-top:800px;}
-
     #panel_superc .container{display:none}
     #panel_aree .container{display:none}
-    
-    
+
+    .content_smartphone{
+	display: block;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+    }
+    .content_smartphone h2{text-align: center;font-size:40px; font-weight: 300;}
+    .content_smartphone h3{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8;}
+
     .column {
 	width: 100%;
 	display: block;
 	background-color: white;
     }
-
-    #panel_superc .content h2{text-align: center;font-size:20px;
-			     }
-    #panel_aree .content h2{text-align: center;font-size:20px; margin-top:auto;
-			   }
 
     .background {
 	background-repeat: no-repeat;
