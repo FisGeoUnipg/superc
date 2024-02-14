@@ -486,64 +486,9 @@ h3::first-letter {
 
 
 
-@media screen and (max-width : 1200px ){
-    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4;}
-}
-@media screen and (max-width : 1000px ){
 
-    /* Caption text */
-    .text {
-	background-color: rgba(4,23,37,0.6);
-	color: #e3f3ff;
-	font-size: 25px;
-	padding: 30px 70px;
-	position: absolute;
-	top: 20%;
-	width: 100%;
-	text-align: center;
-    }
-
-    /* Number text (1/3 etc) */
-    .date {
-	font-family:"Impact";
-	font-size: 35px;
-	padding: 50px 50px;
-	position: absolute;
-	top: 0;
-    }
-
-    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4;}
-    .col_footer_20 {
-	display: none;
-	width: 0%;
-	margin-top:0px;
-    }
-    .col_footer_50 {
-	display: inline-block;
-	width: 100%;
-	margin-top:0px;
-	height: 110px;
-    }
-
-    .col_footer_60 {
-	width: 100%;
-	margin-top:0px;
-    }
-}
-
-@media screen and (max-width : 1400px ){
-    .background {
-	background-repeat: no-repeat;
-	height: 100%;
-	width: 100%;
-	background: url('img/infografica_tablet.png');
-	background-size:cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-    }
-}
-
-@media screen and (max-width : 900px ){
+/* On smaller screens, decrease text size */
+@media (max-width: 300px) {
     html {
 	-ms-overflow-style: none; 
 	/* IE and Edge */
@@ -555,30 +500,11 @@ h3::first-letter {
     html ::-webkit-scrollbar {
 	display: none;
     }
-    
-.card img{
-    width: 40% !important;
+    .prev, .next,.text {font-size: 11px}
 }
 
-    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4;}
-    .column {
-	width: 45%;
-	display: block;
-	background-color: white;
-    }
-    .background {
-	background-repeat: no-repeat;
-	height: 100%;
-	width: 100%;
-	background: url('img/infografica_tablet.png');
-	background-size:cover;
-	background-repeat: no-repeat;
-	background-position:center center;
-    }
 
-}
-
-@media screen and (max-width : 700px ){
+@media  (max-width: 700px){
     html {
 	-ms-overflow-style: none; 
 	/* IE and Edge */
@@ -625,8 +551,7 @@ h3::first-letter {
 
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media (max-width: 900px) {
     html {
 	-ms-overflow-style: none; 
 	/* IE and Edge */
@@ -638,8 +563,82 @@ h3::first-letter {
     html ::-webkit-scrollbar {
 	display: none;
     }
-    .prev, .next,.text {font-size: 11px}
+    
+.card img{
+    width: 40% !important;
 }
+
+    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4;}
+    .column {
+	width: 45%;
+	display: block;
+	background-color: white;
+    }
+    .background {
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	background: url('img/infografica_tablet.png');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center center;
+    }
+
+}
+@media (max-width: 1200px) {
+   .background {
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	background: url('img/infografica_tablet.png');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+    }
+
+    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4;}
+	 
+    /* Caption text */
+    .text {
+	background-color: rgba(4,23,37,0.6);
+	color: #e3f3ff;
+	font-size: 25px;
+	padding: 30px 70px;
+	position: absolute;
+	top: 20%;
+	width: 100%;
+	text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .date {
+	font-family:"Impact";
+	font-size: 35px;
+	padding: 50px 50px;
+	position: absolute;
+	top: 0;
+    }
+
+    #panel_aree .content h1{text-align: center;font-size:18px; font-weight: 300;line-height: 1.4;}
+    .col_footer_20 {
+	display: none;
+	width: 0%;
+	margin-top:0px;
+    }
+    .col_footer_50 {
+	display: inline-block;
+	width: 100%;
+	margin-top:0px;
+	height: 110px;
+    }
+
+    .col_footer_60 {
+	width: 100%;
+	margin-top:0px;
+    }
+}
+
+
 
 <style id="Cartel2_14975_Styles">
 <!--table
