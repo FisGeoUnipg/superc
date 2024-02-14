@@ -183,6 +183,9 @@ header {
 .content_smartphone{
     display:none;
 }
+.content_smartphone_landscape{
+    display:none;
+}
 
 .content {
     width: 70%;
@@ -671,17 +674,17 @@ h3::first-letter {
     #panel_superc .container{display:none}
     #panel_aree .container{display:none}
 
-    .content_smartphone{
+    .content_smartphone_landscape{
 	display: block;
 	width:90%;
 	margin-left:auto;
 	margin-right:auto;
     }
-    .content_smartphone h2{text-align: center;font-size:40px; font-weight: 300;}
-    .content_smartphone h3{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8;}
-    .content_smartphone h1{text-align: center !important; font-size:18px  !important; font-weight: 300 !important; line-height: 1.4  !important; height:100%  !important;}
+    .content_smartphone_landscape h2{text-align: center;font-size:40px; font-weight: 300;}
+    .content_smartphone_landscape h3{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8;}
+    .content_smartphone_landscape h1{text-align: center !important; font-size:18px  !important; font-weight: 300 !important; line-height: 1.4  !important; height:100%  !important;}
 
-    .content_smartphone .button {
+    .content_smartphone_landscape .button {
 	border: none;
 	outline: 0;
 	display: block;
@@ -710,7 +713,7 @@ h3::first-letter {
 	background-repeat: no-repeat;
 	height: 100%;
 	width: 100%;
-	background: url('img/infografica_phone.png');
+	background: url('img/infografica_tablet.png');
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position: center center;
