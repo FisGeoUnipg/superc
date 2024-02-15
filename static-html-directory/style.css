@@ -295,7 +295,12 @@ h3::first-letter {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+height: 400px; 
+object-fit: cover;
 }
+
+
+
 
 /* Caption text */
 .text {
@@ -754,6 +759,9 @@ h3::first-letter {
     padding: 40px 80px;
     position: absolute;
     top: 0;
+}
+.slideshow-container img {
+   height: 300px; 
 }
 
     .content_smartphone {
