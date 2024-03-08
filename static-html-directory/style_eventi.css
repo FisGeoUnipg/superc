@@ -391,7 +391,7 @@ hnews{ display: inline-block; text-align: left;font-size:16px; font-weight: 300;
 hnews_sp{ display: inline-block; text-align: left;font-size:16px; font-weight: 300; line-height: 1.4em; display: -webkit-box;
        -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  overflow: hidden;
+  overflow: visible;
   text-overflow: ellipsis;
   padding-right:150px; padding-left:0px; margin-top: -20px;}
 
