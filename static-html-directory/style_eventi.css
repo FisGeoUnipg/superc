@@ -74,6 +74,9 @@ header img
   color: black;
 }
 
+.content_smartphone {
+    display:none;
+}
 .dropdown {
     list-style-type: none;
     display:inline-block;
@@ -170,6 +173,7 @@ header img
 }
 
 
+
 .col_footer_50{
  display: none;
     height: 130px;
@@ -180,6 +184,7 @@ header img
     margin-right: 0%;
     background-color: white;
 }
+
 
 .dropdown-content {
     display: none;
@@ -838,16 +843,8 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
   html ::-webkit-scrollbar {
     display: none;
   }
-  
-  #risultati{
-    display: none;
-  }
-  
-  #risultati_smartphone{
-      display: inline-block;
-  }
-  
-      .column {
+
+  .column {
 	  width: 45%;
 	display: block;
 	background-color: white;
@@ -993,6 +990,31 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
       font-size: 20px;
       overflow: visible;
   }
+  
+  #risultati{
+    display: none;
+  }
+
+  .content_smartphone {
+      display: block;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+  #risultati_smartphone{
+      display: inline-block;
+  }
+
+  .col_footer_60 {
+      width: 100%;
+      margin-top:0px;
+      background-color: #041725;
+      height: 100%;
+  }
+
+    
  
  .container_right{margin-left: -80px;padding-top:200px;}
  .container_right p{margin-top:-20px; margin-left: -30px; margin-right: -100px; font-size:28px;}
@@ -1021,17 +1043,19 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
         width: 0%;
         margin-top:0px;
     }
-    .col_footer_50 {
-        display: inline-block;
-        width: 100%;
-        margin-top:0px;
-        height: 110px;
-    }
     
     .col_footer_60 {
         width: 100%;
         margin-top:0px;
     }
+    
+    .col_footer_50 {
+        display: inline-block;
+        width: 100%;
+        margin-top: 0px;
+        height: 110px;
+    }
+
     header img
     {
 	margin-left: 20px;
@@ -1079,7 +1103,7 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
 	display: block;
 	background-color: white;
     }
-    
+
     #panel_advisory_board .container_box {
 	display: inline-block;
 	height: 100%;
