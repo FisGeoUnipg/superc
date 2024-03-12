@@ -77,6 +77,8 @@ header img
 .content_smartphone {
     display:none;
 }
+#footer_sp{display: none;}
+
 .dropdown {
     list-style-type: none;
     display:inline-block;
@@ -305,7 +307,14 @@ header img
 #risultati_smartphone{
     display: none;
 }
-    
+
+#eventi_smartphone{
+    display: none;
+}
+
+#eventi{
+ height: 100%;
+}
 .background {
     background-position: center center;
     background-repeat: no-repeat;
@@ -367,7 +376,7 @@ header img
   width:100%;		
   height:100%;	
   margin: 0 auto;
-  overflow: visible;
+  overflow: hidden;
 }
 .content_left h2 {
 color: rgb(255,178,0);
@@ -755,7 +764,7 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
 
 
 .col_footer_50{
- display: none;
+    display: none;
     height: 130px;
     width: 0%;
     position: relative;
@@ -913,6 +922,7 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
       width:80px;
   }
 
+  
   #date_menu {
     margin-top:80px;
     margin-left:0px;
@@ -947,7 +957,7 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
     padding-right:100px;
     float: left;
     width: 100%;
- margin-bottom: -100px;
+    margin-bottom: -100px;
 }
 .column_right_btn{
     margin-bottom: -200px;
@@ -995,6 +1005,10 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
     display: none;
   }
 
+  #eventi{
+    display: none;
+  }
+
   .content_smartphone {
       display: block;
       width: 90%;
@@ -1007,6 +1021,10 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
       display: inline-block;
   }
 
+  #eventi_smartphone{
+      display: inline-block;
+  }
+
   .col_footer_60 {
       width: 100%;
       margin-top:0px;
@@ -1015,7 +1033,9 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
   }
 
     
- 
+  #date_menu{display: none;}
+  #footer_pc{display: none;}
+  #footer_sp{display: inline-block;}
  .container_right{margin-left: -80px;padding-top:200px;}
  .container_right p{margin-top:-20px; margin-left: -30px; margin-right: -100px; font-size:28px;}
  .container_right img{display:none;}
@@ -1104,6 +1124,10 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
 	background-color: white;
     }
 
+    .col_footer_60 {
+	height:280px;
+    }
+    
     #panel_advisory_board .container_box {
 	display: inline-block;
 	height: 100%;
