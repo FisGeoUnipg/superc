@@ -57,7 +57,9 @@ header img
   width: 100%;
   z-index: 0;
 }
-
+li::marker {
+ color: rgb(255,178,0);
+}
 .sub_navbar a {
   text-transform: uppercase;
   float: left;
