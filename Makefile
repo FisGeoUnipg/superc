@@ -11,7 +11,7 @@ endif
 
 .PHONY: build
 build: check
-	docker build -t $(IMAGE):latest
+	docker build -t $(IMAGE):latest .
 
 .PHONY: push
 push: check
