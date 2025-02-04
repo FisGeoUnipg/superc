@@ -404,7 +404,7 @@ hnews_sp{ display: inline-block; text-align: left;font-size:16px; font-weight: 3
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding-right:0px; padding-left:0px; margin-top: -20px;margin-left: -100px; margin-right: 100px;}
+  padding-right:0px; padding-left:0px; padding-bottom: 50px; margin-top: -20px;margin-left: -100px; margin-right: 100px;}
 
 h3{text-align: left;font-size:18px; font-weight: 300; line-height: 1.8; padding-right:50px; padding-left:50px; margin-top: -20px;}
 h3::first-letter {
@@ -464,6 +464,7 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
 .container_risultati{
     padding-top:20px;
     padding-left:200px;
+    padding-bottom: 30px;
 }
 
 
@@ -656,17 +657,17 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
 
 
 #date_risultati_smartphone{
-    margin-left: 0px;
+    margin-left: -200px;
     position:absolute;
     width: 250px;
     padding: 20px;
     background-color: white;
-    border-radius: 100px 100px 100px 100px;
+    border-radius: 0px 100px 100px 0px;
     font-size: 26px;
     font-family: "Impact";
     color: #041725;;
     background-color: rgb(255,178,0);
-    text-align: left;
+    text-align: center;
     line-height: 0.2;
     z-index: 1;}
 
@@ -990,12 +991,12 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
       margin-top:100px;
       margin-left:-200px;
    overflow: visible;
+   text-align: center;
   }
 
 
   #title_smartphone{
-      margin-top:80px;
-      margin-bottom:30px;
+    margin-top: -40px;
       margin-left:0px;
       font-weight: 600;
       text-align: left;
