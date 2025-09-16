@@ -43,37 +43,70 @@
 	<a href="./team.html">Team</a>
       </div>
       <div id="main">
-	<button class="openbtn" onclick="openNav()">☰ </button>  
+	<button class="openbtn" onclick="openNav()">☰ </button>
       </div>
       <div class="vl">
-	<p style="color:white; font-size: 60px;font-weight: 300; position:absolute; margin-top: -10px;"> &nbspE<span style="color:rgb(255,178,0); font-size:40px;">VENTI</span></p>    
+	<p style="color:white; font-size: 60px;font-weight: 300; position:absolute; margin-top: -10px;"> &nbspE<span style="color:rgb(255,178,0); font-size:40px;">VENTI</span></p>
 
       </div>
 
     </header>
-    
-<section id="news">
 
-<table style="margin-top:80px; margin-left:20px; width:80%; text-align:center;border: 2px solid #041725; border-radius: 0px 0px 15px 15px; position:fixed; z-index:20; background-color: white; font-size:14px;">
-  <tr>
-    <th colspan="1" style="color:white; background-color:#041725;  padding: 5px;">2023</th>
-  </tr>
-  <tr>
-    <td><a href="#giugno">GIU</a></td>
-  </tr>
+
+    <table id="date_menu" >
+      <tr>
+	<th id="date2025"  colspan="1" style=" color:white; background-color:#041725; xpadding: 5px; border:none;"
+	    data-0="background-color:rgb(5,23,37); color: rgb(255,255,255)" data-900="color: rgb(5,23,37); background-color: rgb(255,255,255);" > <a href="#febbraio2025" style="color:inherit"> 2025 </a></th>
+	<th id="date2023" colspan="1"  style="color:#041725; background-color:white; xpadding: 5px;" data-0="background-color:rgb(255,255,255); color: rgb(5,23,37)" data-900="color: rgb(255,255,255); background-color: rgb(5,23,37);"> <a href="#giugno2023" style="color:inherit">2023</a></th>
+      </tr>
+      <tr id="riga2023" style="display:none;" data-0="display:none" data-900="display:contents">
+	<td><a href="#giugno2023">GIU</a></td>
+      </tr>
+      <tr id="riga2025"  style="display:none;" data-0="display:contents" data-900="display:none">
+	<td><a href="#febbraio2025">FEB</a></td>
+	<td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td>
+      </tr>
     </table>
+
 
 <div class="timeline">
 
 	<div class="container_right_news">
 	  <div id="month_start">
-            Giugno
+            Febbraio
 	    <br>
-	    <span style="color:orange; font-weight:300;font-size:16px;">2023</span>
+	    <span style="color:orange; font-weight:300;font-size:16px;">2025</span>
 	  </div>
 	</div>
 
-	<div class="container_news" id="giugno">
+
+
+  <!-- AMS-02 3febbraio2025-->
+  	<div class="container_news" id="#febbraio2025">
+  	  <div id="date_news" style="padding-bottom: -18px; padding-left:30px; font-size:30px; font-weight: 400"> 3 FEBBRAIO
+  	    <div style="font-size:25px; text-align:center; padding-top: 25px; padding-right:10px; font-weight: 300"> 2023 </div>
+  	  </div>
+  	    <p> AMS-02: UniPg e INFN in prima linea nello studio dei raggi cosmici</p>
+  	  <hnews>Osservate per la prima volta le variazioni temporali di un intero ciclo solare con l'esperimento AMS-02
+I risultati pubblicati su “Physical Review Letters” dell’American Physical Society   </hnews>
+  	  <a href="./news_ams3feb2025.html"><button id="Btn_news"> Leggi di più </button></a>
+  	  <br>
+  	  <br>
+  	  <br>
+  	</div>
+
+  <!-- AMS-02 3febbraio2025 -->
+
+  	<div class="container_right_news">
+  	  <div id="month_start">
+              Giugno
+  	    <br>
+  	    <span style="color:orange; font-weight:300;font-size:16px;">2023</span>
+  	  </div>
+  	</div>
+
+<!-- ET TELESCOPE -->
+	<div class="container_news" id="#giugno2023">
 	  <div id="date_news" style="padding-bottom: -18px; padding-left:30px; font-size:30px; font-weight: 400"> 6 GIUGNO
 	    <div style="font-size:25px; text-align:center; padding-top: 25px; padding-right:10px; font-weight: 300"> 2023 </div>
 	  </div>
@@ -85,6 +118,14 @@
 	  <br>
 	  <br>
 	</div>
+
+<!-- ET TELESCOPE END -->
+
+
+
+
+<!-- FOOTER -->
+
 	<hr style="  border: 10px solid #041725; width:100%; margin-bottom:-10px;">
 	<div class="row" style="align:center;  width:100%; bakcground-color:white;">
 	  <div class="col_footer_20">
@@ -102,7 +143,7 @@
 	  <div class="col_footer_20">
 	    <img src="img/logo_unipg.svg" alt="logo_super-c" style="height:90px;margin-top:20px;margin-right:20px;float:right;">
 	  </div>
-	  
+
 	  <div class="col_footer_50">
 	    <img src="img/logo_unipg_SC.png" alt="logo_super-c" style="margin-left:50px;height:90px; float:left;">
 	    <img src="img/logo_unipg.svg" alt="logo_super-c" style="height:90px;margin-right:50px;float:right;">
@@ -112,9 +153,9 @@
 	  </div>
 	</div>
 </section>
+<!-- FOOTER END-->
 
 
-    
 <script src="js/jquery.min.js"></script>
 <script src="js/skrollr.min.js"></script>
 <script src="js/skrollr.menu.min.js"></script>
