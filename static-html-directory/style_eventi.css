@@ -1,4 +1,4 @@
-html,body{margin:0; padding:0;box-sizing: border-box;   background-color: white;}
+html,body{margin:0; padding:0;box-sizing: border-box;   background-color: transparent;}
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -81,6 +81,9 @@ li::marker {
 }
 #footer_sp{display: none;}
 
+object{
+  height: 300px;
+}
 .dropdown {
     list-style-type: none;
     display:inline-block;
@@ -314,6 +317,11 @@ li::marker {
     display: none;
 }
 
+#risultati_no_smartphone{
+display: inline-block;
+width: 100%;
+}
+
 #eventi{
  height: 100%;
 }
@@ -393,9 +401,10 @@ font-size:20px;
 hnews{ display: inline-block; text-align: left;font-size:16px; font-weight: 300; line-height: 1.4em; display: -webkit-box;
        -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  overflow: hidden;
+  overflow: visible;
   text-overflow: ellipsis;
   padding-right:150px; padding-left:50px; margin-top: -20px;
+  height: 100px;
 }
 
 
@@ -445,6 +454,7 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
   left: 150px;
   margin-left: -3px;
   height:100%;
+  z-index:-1;
 }
 /* Container around content */
 .container_left {
@@ -663,7 +673,8 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
 
     text-align: left;
     line-height: 0.2;
-  z-index: 1;}
+  z-index: 1;
+}
 
 
 #date_risultati_smartphone{
@@ -873,6 +884,23 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
 	background-color: white;
     }
 
+
+  #date_risultati_smartphone{
+      margin-left: -200px;
+      margin-bottom: -80px;
+      position:relative;
+      width: 250px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 0px 100px 100px 0px;
+      font-size: 26px;
+      font-family: "Impact";
+      color: #041725;;
+      background-color: rgb(255,178,0);
+      text-align: center;
+      line-height: 0.2;
+      z-index: 1;}
+
     #panel_advisory_board .container_box {
 	display: inline-block;
 	height: 100%;
@@ -1005,6 +1033,10 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
    text-align: center;
   }
 
+  .container_risultati img{
+    display: none;
+  }
+
 
   #title_smartphone{
     margin-top: -40px;
@@ -1036,8 +1068,12 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
       display: inline-block;
   }
 
+  #risultati_no_smartphone{
+  display: none;
+  }
   #eventi_smartphone{
-      display: inline-block;
+      display: absolute;
+      width: 100%;
   }
 
   .col_footer_60 {
