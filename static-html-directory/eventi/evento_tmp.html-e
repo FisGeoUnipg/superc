@@ -2,7 +2,7 @@
   <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-products-item u-repeater-item" data-product-id="7">
   <div class="u-container-layout u-similar-container u-valign-bottom-sm u-container-layout-1">
   <!--product_image-->
-  <a class="u-product-title-link" href="_LINK_" target="_blank"><img src="_IMG_" alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-default u-product-control u-image-1 animated customAnimationIn-played" data-image-width="1349" data-image-height="1500" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500" style="will-change: transform, opacity; animation-duration: 1500ms;"></a><!--/product_image-->
+  <a class="u-product-title-link" href="_LINK_" target="_blank"><img src="img/buchi_neri.jpg" alt="" class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-default u-product-control u-image-1 animated customAnimationIn-played" data-image-width="1349" data-image-height="1500" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500" style="will-change: transform, opacity; animation-duration: 1500ms;"></a><!--/product_image-->
 <!--date-->
 
 <!--product_title-->
@@ -10,8 +10,8 @@
       <div class="u-container-layout u-valign-middle u-container-layout-2"><!--product_price-->
            <div class="u-align-center u-product-control u-product-price u-product-price-1" data-add-zero-cents="true">
           <div class="u-price-wrapper u-spacing-10"><!--product_old_price-->
-              <div class="u-price" style="font-size: 1.75rem; font-weight: 500; text-align: center; padding:20px; background:rgb(255,178,0); color: #041725">_DATE_</div><!--/product_regular_price-->
-              <div class="u-price" style="font-size: 16px; font-weight: 300; text-align: left;">_TITLE_</div><!--/product_regular_price-->
+              <div class="u-price" style="font-size: 1.75rem; font-weight: 500; text-align: center; padding:20px; background:rgb(255,178,0); color: #041725">20 Nov 2025</div><!--/product_regular_price-->
+              <div class="u-price" style="font-size: 16px; font-weight: 300; text-align: left;">L'irresistibile attrazione della gravità – Viaggio alla scoperta dei buchi neri</div><!--/product_regular_price-->
 
               </div>
         </div>
