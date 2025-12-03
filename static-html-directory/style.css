@@ -44,6 +44,37 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
+
+/* === COOKIES === */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: lemonchiffon;
+  color: black;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  z-index: 9999;
+  margin:0;
+  margin-left: -8px;
+  font-size: small;
+}
+.cookie-banner button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+.cookie-banner button:last-child {
+  background: #b33a3a;
+}
+
+
 #nav {
     display: inline-block;
     padding: 0px;

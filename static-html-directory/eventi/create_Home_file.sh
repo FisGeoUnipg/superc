@@ -24,7 +24,6 @@ cat <<'EOF' >> "$OUTPUT_FILE"
 <link rel="stylesheet" href="./nicepage.css" media="screen">
 <link rel="stylesheet" href="./nicepage-site.css" media="screen">
 <link rel="stylesheet" href="./index.css" media="screen">
-<script type="text/javascript" async="" charset="utf-8" src="./recaptcha__it.js" crossorigin="anonymous" integrity="sha384-jBr1c0i/lBALGFjGRa0UkLw5oDOPevN9KOlmNFGKHe5+D+3OpoTeZdS00+BHr2oZ"></script>
 <script class="u-script" type="text/javascript" src=".//jquery-3.5.1.min.js" defer=""></script>
 <script class="u-script" type="text/javascript" src="./nicepage.js" defer=""></script>
 <link id="u-theme-google-font" rel="stylesheet" href="./css">
@@ -45,49 +44,16 @@ cat <<'EOF' >> "$OUTPUT_FILE"
 function gdprConfirmed() { return true; }
 function dynamicLoadScript(src) {
     var script = document.createElement('script');
-    script.src = src && typeof src === 'string' ? src : 'https://www.google.com/recaptcha/api.js?render=6Lc2HDEiAAAAALpe1yqNarK-BmlyYl_MNPZx7_AB';
+
     script.async = true;
     document.body.appendChild(script);
-    script.onload = function() {
-        let event = new CustomEvent("recaptchaLoaded");
-        document.dispatchEvent(event);
-    };
 }
 document.addEventListener('DOMContentLoaded', function () {
     var confirmButton = document.querySelector('.u-cookies-consent .u-button-confirm');
     if (confirmButton) { confirmButton.onclick = dynamicLoadScript; }
 });
 document.addEventListener("DOMContentLoaded", function(){ if (!gdprConfirmed()) { return; } dynamicLoadScript(); });
-document.addEventListener("recaptchaLoaded", function() {
-    if (!gdprConfirmed()) { return; }
-    (function (grecaptcha, sitekey, actions) {
-        var recaptcha = {
-            execute: function (action, submitFormCb) {
-                try {
-                    grecaptcha.execute(sitekey, {action: action}).then(function (token) {
-                        var forms = document.getElementsByTagName('form');
-                        for (var i = 0; i < forms.length; i++) {
-                            var fields = forms[i].getElementsByTagName('input');
-                            for (var j = 0; j < fields.length; j++) {
-                                var field = fields[j];
-                                if ('recaptchaResponse' === field.getAttribute('name')) {
-                                    field.setAttribute('value', token);
-                                    break;
-                                }
-                            }
-                        }
-                        submitFormCb();
-                    });
-                } catch (e) {
-                    var formError = document.querySelector('.u-form-send-error');
-                    if (formError) { formError.innerText = 'Site Owner Error: ' + e.message.replace(/:[\s\S]*/, ''); formError.style.display = 'block'; }
-                }
-            },
-            executeContact: function (submitFormCb) { recaptcha.execute(actions['contact'], submitFormCb); }
-        };
-        window.recaptchaObject = recaptcha;
-    })(grecaptcha, '6Lc2HDEiAAAAALpe1yqNarK-BmlyYl_MNPZx7_AB', {'contact': 'contact'});
-});
+
 </script>
 </head>
 
@@ -128,9 +94,7 @@ cat <<'EOF' >> "$OUTPUT_FILE"
 </section>
 
 <style>.u-disable-duration * {transition-duration: 0s !important;}</style>
-<script src=".//api.js" async=""></script>
-<div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-wlm70h7rkgaa" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src=".//anchor.html"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div>
-<iframe style="display: none;" src=".//saved_resource(1).html"></iframe></div>
+
 </body>
 </html>
 EOF
