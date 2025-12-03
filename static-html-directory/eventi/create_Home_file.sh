@@ -125,8 +125,6 @@ cat <<'EOF' >> "$OUTPUT_FILE"
       </div>
       <div class="u-list-control"></div>
     </div><!--/products-->
-    <a href="https://website6245512.nicepage.io/#" class="u-active-palette-1-base u-align-center u-border-2 u-border-active-palette-1-base u-border-grey-dark-1 u-border-hover-palette-1-base u-btn u-button-style u-hover-palette-1-base u-btn-1 animated customAnimationIn-played" target="_blank" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="0" style="will-change: transform, opacity; animation-duration: 1500ms;">View All</a>
-  </div>
 </section>
 
 <style>.u-disable-duration * {transition-duration: 0s !important;}</style>

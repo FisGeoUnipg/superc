@@ -1003,6 +1003,7 @@
 .u-section-2 .u-btn-1 {
   border-style: solid;
   padding: 0;
+  margin-top: -300px;
 }
 
 .u-section-2 .u-btn-2 {
@@ -1133,6 +1134,7 @@
   grid-template-columns: repeat(3, calc(33.3333% - 6.66667px));
   min-height: 1024px;
   grid-gap: 10px;
+  margin-top: -150px;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -1165,6 +1167,7 @@
 
 .u-section-3 .u-container-layout-2 {
   padding: 20px;
+  height: 200px;
 }
 
 .u-section-3 .u-product-price-1 {
@@ -1405,6 +1408,7 @@
     grid-auto-columns: calc(33.333333333333336% - 6.66667px);
     grid-template-columns: repeat(3, calc(33.333333333333336% - 6.66667px));
     min-height: 843px;
+    margin-top: -300px;
   }
 
   .u-section-3 .u-container-layout-1 {
@@ -1524,6 +1528,7 @@
     grid-auto-columns: calc(50% - 5.0000025px);
     grid-template-columns: repeat(2, calc(50% - 5.0000025px));
     min-height: 1466px;
+    margin-top: 150px;
   }
 
   .u-section-3 .u-group-1 {
@@ -1568,6 +1573,7 @@
     grid-auto-columns: calc(100% + 0px);
     grid-template-columns: 100%;
     min-height: 3607px;
+    margin-top:-950px;
   }
 
   .u-section-3 .u-container-layout-1 {
