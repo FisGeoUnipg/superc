@@ -103,7 +103,22 @@ object{
     background-position: top center;
 }
 
+  div.polaroid {
+    width: 80%; /* Larghezza definita */
+  margin: 0 auto; /* Centra orizzontalmente */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
 
+  div.container_page {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  div.container_page p{
+    font-size: 16px;
+    font-weight: 100;
+  }
 #astroread{
     width:100px;
     margin-top:-105px;
@@ -1215,6 +1230,14 @@ hnews{
 	width: 100%;
 	display: block;
 	background-color: white;
+    }
+
+    div.polaroid {
+      width: 100%; /* Larghezza definita */
+    }
+
+    div.container_page p{
+      font-size: 14px;
     }
 
     .col_footer_60 {
