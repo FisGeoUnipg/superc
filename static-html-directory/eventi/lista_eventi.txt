@@ -1,29 +1,29 @@
-img/coming_soon.png~Spazio, Astri, Spazio, Astri e particelle~2026~https://www.unipg.it/servizi/orientamento/corsi-pnrr?view=elenco
-img/coming_soon.png~Esplorazione del Sistema Solare~2026~https://www.unipg.it/servizi/orientamento/corsi-pnrr?view=elenco
-img/buchi_neri.jpg~L'irresistibile attrazione della gravità – Viaggio alla scoperta dei buchi neri~20 Nov 2025~https://www.unipg.it/files/eventi/2025/2025_11_novembre/convegno-infn.pdf
-img/icd.png~International Cosmic Day 2025~13 Nov 2025~https://agenda.infn.it/event/48993/
-img/particelleNebbia.png~Particelle nella nebbia~26 Set 2025~https://www.sharper-night.it/evento/particelle-nella-nebbia/
-img/giochi.png~Scienza da tavolo~26 Set 2025~https://www.sharper-night.it/evento/scienza-da-tavolo/
-img/Onde-gravitazionali.jpg~Onde gravitazionali: la sfida del detector~26 Set 2025~https://www.sharper-night.it/evento/onde-gravitazionali-la-sfida-del-detector/
-img/fisicaShow.png~Fisica Show: La scienza in azione~26 Set 2025~https://www.sharper-night.it/evento/fisica-show-la-scienza-in-azione/
-img/orientamento2025.png~Open Day Unipg 2025~9 Mag 2025~https://www.unipg.it/servizi/orientamento/open-day-unipg/open-day-2025
-img/fermiM.png~Fermi Masterclass 2025~28 Mar 2025~https://agenda.infn.it/event/40040/
-img/ams_terni.png~A Terni i test per il lancio di un nuovo rivelatore di particelle~6 Feb 2025~http://unipg.it/news/ricerca?layout=scheda&idNews=4264
-img/icd2024.png~International Cosmic Day 2024~26 Nov 2024~https://agenda.infn.it/event/44137/
-img/seminarioMiguel.png~Radiation in space: evaluation of risk, dosis, and shielding~21 Nov 2024~https://crisp.unipg.it/2024/11/seminario-crisp-space-physics/
-img/apericerca2024.png~Luna, Marte, Mercurio: figli, fratelli, cugini della Terra~21 Nov 2024~https://crisp.unipg.it/2024/11/luna-marte-mercurio-figli-fratelli-cugini-della-terra/
-img/particelleNebbia.png~Particelle nella nebbia~27 Set 2024~https://www.sharper-night.it/evento/gioco-giocando-si-impara/
-img/giochi.png~Scienza da tavolo~27 Set 2024~https://www.sharper-night.it/evento/dimostrazione-particelle-nella-nebbia/
-img/Onde-gravitazionali.jpg~Onde gravitazionali: la sfida del detector~27 Set 2024~https://www.sharper-night.it/evento/visita-virtuale-onde-gravitazionali-rivelatore-virgo-in-ascolto/
-img/stelle_galassie_universo.png~Stelle, Galassie ed Universo~Apr-Mag 2024~http://www.fisica.unipg.it/fisgejo/index.php/it/orientamento/orientamento-attivo-nella-transizione-scuola-universita-pnrr.html
-img/Lab2Go2024.jpeg~Lab2GO~Feb-Apr 2024~https://crisp.unipg.it/2024/01/riparte-lab2go-il-progetto-per-misurare-raggi-cosmici-nelle-scuole/
-img/inf_picc.png~Studiare l’Universo attraverso l’infinitamente piccolo~Feb-Mag 2023~http://www.fisica.unipg.it/fisgejo/index.php/it/orientamento/orientamento-attivo-nella-transizione-scuola-universita-pnrr.html
-img/icd2023.png~International Cosmic Day 2023~21 Nov 2023~https://agenda.infn.it/event/38545/
-img/giantS.png~Decoding the Lives of Red Giant Stars:New Spectroscopic Clue~4 Ott 2023~https://www.fisgeo.unipg.it/physdid/PerAPS2023/Chris-Sneden-4-ottobre-2023.pdf
-img/accademy.png~Physics games accademy~29 Set 2023~https://archivio.sharper-night.it/evento/gioco-physics-games-academy/
-img/seminario2023sharper.png~Il viaggio dei Raggi Cosmici~29 Set 2023~https://archivio.sharper-night.it/evento/conferenza-il-viaggio-dei-raggi-cosmici/
-img/Lab2Go2023.png~Lab2GO~15 Mag 2023~https://crisp.unipg.it/2023/05/lab2go-e-costruzione-di-una-camera-a-nebbia/
-img/coloti.jpeg~Una Notte all'Osservatorio~6 Mag 2023~https://www.eventbrite.it/e/biglietti-una-notte-allosservatorio-581487634167
-img/onde.png~Ascoltare l’Universo con le onde gravitazionali: la nascita dell’astronomia multimessaggera~22 Apr 2023~https://www.festascienzafilosofia.it/event/08db2ee3-e970-44c0-8e12-42eac742a22d
-img/coloti.jpeg~Una Notte all'Osservatorio~4 Apr 2023~https://www.eventbrite.it/e/biglietti-visita-allosservatorio-di-coloti-liceo-alessi-603331459637
-img/coloti.jpeg~Una Notte all'Osservatorio~3 Mar 2023~https://www.eventbrite.it/e/biglietti-una-notte-allosservatorio-ic-solfagnano-551137285457
+img/coming_soon.avif~Spazio, Astri, Spazio, Astri e particelle~2026~https://www.unipg.it/servizi/orientamento/corsi-pnrr?view=elenco
+img/coming_soon.avif~Esplorazione del Sistema Solare~2026~https://www.unipg.it/servizi/orientamento/corsi-pnrr?view=elenco
+img/buchi_neri.avif~L'irresistibile attrazione della gravità – Viaggio alla scoperta dei buchi neri~20 Nov 2025~https://www.unipg.it/files/eventi/2025/2025_11_novembre/convegno-infn.pdf
+img/icd.avif~International Cosmic Day 2025~13 Nov 2025~https://agenda.infn.it/event/48993/
+img/particelleNebbia.avif~Particelle nella nebbia~26 Set 2025~https://www.sharper-night.it/evento/particelle-nella-nebbia/
+img/giochi.avif~Scienza da tavolo~26 Set 2025~https://www.sharper-night.it/evento/scienza-da-tavolo/
+img/Onde-gravitazionali.avif~Onde gravitazionali: la sfida del detector~26 Set 2025~https://www.sharper-night.it/evento/onde-gravitazionali-la-sfida-del-detector/
+img/fisicaShow.avif~Fisica Show: La scienza in azione~26 Set 2025~https://www.sharper-night.it/evento/fisica-show-la-scienza-in-azione/
+img/orientamento2025.avif~Open Day Unipg 2025~9 Mag 2025~https://www.unipg.it/servizi/orientamento/open-day-unipg/open-day-2025
+img/fermiM.avif~Fermi Masterclass 2025~28 Mar 2025~https://agenda.infn.it/event/40040/
+img/ams_terni.avif~A Terni i test per il lancio di un nuovo rivelatore di particelle~6 Feb 2025~http://unipg.it/news/ricerca?layout=scheda&idNews=4264
+img/icd2024.avif~International Cosmic Day 2024~26 Nov 2024~https://agenda.infn.it/event/44137/
+img/seminarioMiguel.avif~Radiation in space: evaluation of risk, dosis, and shielding~21 Nov 2024~https://crisp.unipg.it/2024/11/seminario-crisp-space-physics/
+img/apericerca2024.avif~Luna, Marte, Mercurio: figli, fratelli, cugini della Terra~21 Nov 2024~https://crisp.unipg.it/2024/11/luna-marte-mercurio-figli-fratelli-cugini-della-terra/
+img/particelleNebbia.avif~Particelle nella nebbia~27 Set 2024~https://www.sharper-night.it/evento/gioco-giocando-si-impara/
+img/giochi.avif~Scienza da tavolo~27 Set 2024~https://www.sharper-night.it/evento/dimostrazione-particelle-nella-nebbia/
+img/Onde-gravitazionali.avif~Onde gravitazionali: la sfida del detector~27 Set 2024~https://www.sharper-night.it/evento/visita-virtuale-onde-gravitazionali-rivelatore-virgo-in-ascolto/
+img/stelle_galassie_universo.avif~Stelle, Galassie ed Universo~Apr-Mag 2024~http://www.fisica.unipg.it/fisgejo/index.php/it/orientamento/orientamento-attivo-nella-transizione-scuola-universita-pnrr.html
+img/Lab2Go2024.avif~Lab2GO~Feb-Apr 2024~https://crisp.unipg.it/2024/01/riparte-lab2go-il-progetto-per-misurare-raggi-cosmici-nelle-scuole/
+img/inf_picc.avif~Studiare l’Universo attraverso l’infinitamente piccolo~Feb-Mag 2023~http://www.fisica.unipg.it/fisgejo/index.php/it/orientamento/orientamento-attivo-nella-transizione-scuola-universita-pnrr.html
+img/icd2023.avif~International Cosmic Day 2023~21 Nov 2023~https://agenda.infn.it/event/38545/
+img/giantS.avif~Decoding the Lives of Red Giant Stars:New Spectroscopic Clue~4 Ott 2023~https://www.fisgeo.unipg.it/physdid/PerAPS2023/Chris-Sneden-4-ottobre-2023.pdf
+img/accademy.avif~Physics games accademy~29 Set 2023~https://archivio.sharper-night.it/evento/gioco-physics-games-academy/
+img/seminario2023sharper.avif~Il viaggio dei Raggi Cosmici~29 Set 2023~https://archivio.sharper-night.it/evento/conferenza-il-viaggio-dei-raggi-cosmici/
+img/Lab2Go2023.avif~Lab2GO~15 Mag 2023~https://crisp.unipg.it/2023/05/lab2go-e-costruzione-di-una-camera-a-nebbia/
+img/coloti.avif~Una Notte all'Osservatorio~6 Mag 2023~https://www.eventbrite.it/e/biglietti-una-notte-allosservatorio-581487634167
+img/onde.avif~Ascoltare l’Universo con le onde gravitazionali: la nascita dell’astronomia multimessaggera~22 Apr 2023~https://www.festascienzafilosofia.it/event/08db2ee3-e970-44c0-8e12-42eac742a22d
+img/coloti.avif~Una Notte all'Osservatorio~4 Apr 2023~https://www.eventbrite.it/e/biglietti-visita-allosservatorio-di-coloti-liceo-alessi-603331459637
+img/coloti.avif~Una Notte all'Osservatorio~3 Mar 2023~https://www.eventbrite.it/e/biglietti-una-notte-allosservatorio-ic-solfagnano-551137285457

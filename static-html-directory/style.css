@@ -217,7 +217,7 @@ header {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    background: url('img/infografica.png');
+    background: url('img/infografica.avif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -524,7 +524,7 @@ h3::first-letter {
         background-repeat: no-repeat;
         height: 100%;
         width: 100%;
-        background: url('img/infografica_tablet.png');
+        background: url('img/infografica_tablet.avif');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -622,7 +622,7 @@ h3::first-letter {
         background-repeat: no-repeat;
         height: 100%;
         width: 100%;
-        background: url('img/infografica_tablet.png');
+        background: url('img/infografica_tablet.avif');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -746,7 +746,7 @@ h3::first-letter {
         background-repeat: no-repeat;
         height: 100%;
         width: 100%;
-        background: url('img/infografica_phone.png');
+        background: url('img/infografica_phone.avif');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -860,7 +860,7 @@ h3::first-letter {
         background-repeat: no-repeat;
         height: 100%;
         width: 100%;
-        background: url('img/infografica_tablet.png');
+        background: url('img/infografica_tablet.avif');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
