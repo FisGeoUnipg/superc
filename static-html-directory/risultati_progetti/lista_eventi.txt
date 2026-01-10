@@ -1,2 +1,2 @@
-img/camera_bianca.jpg~Infrastruttura per l’assemblaggio e la qualifica di strumentazione spaziale ~pagine_da_integrare/camera_bianca.html~#RaggiCosmici
-img/ams023feb2025.png~Osservate per la prima volta le variazioni temporali di un intero ciclo solare con l'esperimento AMS-02~pagine_da_integrare/news_ams3feb2025.html~#RaggiCosmici
+img/camera_bianca.avif~Infrastruttura per l’assemblaggio e la qualifica di strumentazione spaziale ~pagine_da_integrare/camera_bianca.html~#RaggiCosmici
+img/ams023feb2025.avif~Osservate per la prima volta le variazioni temporali di un intero ciclo solare con l'esperimento AMS-02~pagine_da_integrare/news_ams3feb2025.html~#RaggiCosmici
