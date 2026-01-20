@@ -18,7 +18,7 @@ header {
     z-index: 100;
     text-align: center;
     font-size: 18px;
-    -webkit-transition: all 0.3s ease-in-out;
+    -webkift-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -516,6 +516,17 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
+.container_risultati_first{
+    padding-top:0px;
+    padding-left:200px;
+    padding-bottom: 0;
+    height: 250px;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
 
 
 .container_right p{
@@ -540,6 +551,22 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
 }
 
 .container_risultati p{
+    font-weight: 600;
+    text-align: left;
+    color:  #041725;
+    font-size: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left:50px;
+    padding-right:50px;
+    margin-top:0px;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.container_risultati_first p{
     font-weight: 600;
     text-align: left;
     color:  #041725;
@@ -921,6 +948,10 @@ h5{text-align: center;font-size:18px; font-weight: 300; line-height: 1.8; paddin
   }
   html ::-webkit-scrollbar {
     display: none;
+  }
+
+  .container_risultati_first{
+      margin-top:80px;
   }
 
   object{

@@ -163,7 +163,7 @@ header {
 }
 /* Darker background on mouse-over */
 .arrow:hover {
-	 border: solid #568BB0;  
+	 border: solid #568BB0;
 	border-width: 0 3px 3px 0;
 }
 
@@ -183,7 +183,7 @@ header {
     float: right;
     overflow: visible;
     position: relative;
-    padding: 0 5px;	 
+    padding: 0 5px;
     width:100%;
 }
 
@@ -230,7 +230,7 @@ h3::first-letter {
 	margin-top: 90px;
 	margin-left: 35%;
 	float:right;
-	position: fixed;
+	position: absolute;
 	 text-transform: uppercase;
 
   }
@@ -287,7 +287,7 @@ h3::first-letter {
 }
 
 
-@media screen and (max-width : 900px ){  
+@media screen and (max-width : 900px ){
 
     #nav {display: none;}
     .openbtn {
